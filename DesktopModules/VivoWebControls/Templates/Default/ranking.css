@@ -1,0 +1,36 @@
+.topfadbar {
+    background-image: url(images/ranking.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 54px;
+	height:63px;	
+	text-align:center;
+}
+.RankUp {
+    vertical-align:top;
+	text-align:center;
+}
+.RankDn {
+    vertical-align:top;
+	text-align:center;
+}
+.Rankint {
+	font-size:16px;
+	font-weight: bolder;
+	color: #333333;
+	text-align:center;
+	vertical-align:middle;
+	padding-top: 0px;
+	padding-bottom:0px;
+	padding-right:2px;
+}
+.Votestxt {
+    font-size:9px;
+	color:#8cafcf;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	padding-top: 0px;
+	padding-bottom:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}

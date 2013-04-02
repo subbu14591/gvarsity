@@ -1,0 +1,68 @@
+[SETTINGS:EnablePopUp=False]
+[PopUpLink]
+<table id="[PopUpControlId]" width="400px" border="0" cellspacing="1" cellpadding="1">
+    <tr>
+        <td><strong>Who can see This?</strong></td>    
+    </tr>
+    <tr>
+        <td>
+            
+            [CheckEveryOne]<label for="[CheckEveryOneId]">[Local:Everyone]</label>
+            
+        </td>
+    </tr>
+    [ProfileIntegrated]
+    <tr>
+        <td>
+            <strong>Friends</strong>
+            <br />
+            [ComboFriends]
+            <br />
+            <div id="[SomeFriendsControlId]">
+                [ContactControl:SomeFriend:MultiLine=False:1]
+            </div>
+        </td>
+    </tr>
+    [/ProfileIntegrated]
+    [GroupsIntegrated]
+    <tr>
+        <td>
+            <strong>Groups</strong>
+            <br />
+            [ComboGroups]
+            <br />
+            <div id="[SomeGroupsControlId]">
+                [ContactControl:Groups:MultiLine=False:2]
+            </div>
+        </td>
+    </tr>
+    [/GroupsIntegrated]
+    [IsAdmin]
+    <tr>
+        <td>
+            <strong>Roles</strong>
+            <br />
+            [ComboRoles]
+            <br />
+            <div id="[SomeRolesControlId]">
+                [ContactControl:Roles:IsAllow=False]
+            </div>
+        </td>
+    </tr>
+    [/IsAdmin]
+    <tr>
+        <td>
+            <strong>Except These People or Group</strong>
+            <br />
+            [ContactControl:Contacts:IsAllow=False,Height=50,Rows=4:0]
+            <br />
+            [CheckExceptionFirst:Check exception first]
+        </td>
+    </tr>
+    <tr>        
+        <td>
+            [SaveLinkButton][CancelLinkButton]
+        </td>
+    </tr>
+    
+</table>

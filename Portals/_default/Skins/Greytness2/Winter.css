@@ -1,0 +1,29 @@
+/*========================================================+
+|  Winter Theme Styles                                    |
++========================================================*/
+
+.fullWidthWinter {
+  border-bottom:none;
+}
+
+.BottomDivWinter {
+  background:url(graphics/winter_footer_bg.png) center no-repeat;
+  height:152px;
+  width:980px;
+  margin:0 auto;
+  border-top:none;
+}
+
+.BottomDivBgWinter {
+    background:url(graphics/winter_footer_repeat_bg.png) repeat-x;
+    }
+
+.footerWinter {
+  padding-top:120px !important;
+}
+
+.BorderBgDiv { width:980px; margin:10px auto 0 auto; padding:0px; clear: both; border:none; -webkit-box-shadow: none; box-shadow: none; }
+.TopDiv { background:url(graphics/BorderedTop_bg.png) top no-repeat; height:15px; display:block; }
+.contentWrapper { background:url(graphics/BorderedContent_bg.png) top center repeat-y; }
+.fullWidth { width:962px; padding:0; margin:0 auto; position:relative; }
+.designBy { font-size:10px; color:#B2B2B2; text-align:center; margin-bottom:20px }

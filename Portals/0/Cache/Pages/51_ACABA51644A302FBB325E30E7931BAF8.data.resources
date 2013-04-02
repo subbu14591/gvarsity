@@ -1,0 +1,114 @@
+<div id="dnn_ctr362_HtmlModule_lblContent" class="Normal">
+	<p id="GettingStartedHeader">
+<strong>Way to go!</strong> you just landed on to a platform that will help you to nourish your skills and knowledge; <strong>what would you like to do next?</strong>
+</p>
+<div id="GettingStartedLeftPanel">
+<div id="slides" class="slides">
+<div class="slides_container">
+<div class="slide">
+<div>
+<h5 class="SubHead">What's there in G-Varsity</h5>
+<p style="width: 275px; height: 150px; background-color: black;">
+<iframe id="whatsNewVideo" width="275" frameborder="0" style="display: none;" src="http://www.dotnetnuke.com/Resources/Video-Library/7.0/WhatsNew.aspx?v=7.0.0" onload="javascript:$('#whatsNewVideo').show()"></iframe>
+</p>
+<p>
+Find out what we have for you.</p>
+<p>
+<a class="videolink" target="_blank" href="http://www.dotnetnuke.com/Resources/Video-Library/7.0/WhatsNew.aspx?v=7.0.0">Watch the Video</a></p>
+</div>
+<div>
+<h5 class="SubHead">Get to know about G-Varsity</h5>
+<p style="width: 275px; height: 150px; background-color: black;">
+<iframe id="introVideo" width="275" frameborder="0" style="display: none;" src="http://www.dotnetnuke.com/Resources/Video-Library/7.0/introduction.aspx?v=7.0.0" onload="javascript:$('#introVideo').show()"></iframe>
+</p>
+<p>
+The video below will <strong> help get you started </strong> building your new educational profile in G-Varsity.&nbsp;Using G-Varsityis fast and easy and you can have your new profile up and running with in just a matter of seconds.</p>
+<p>
+<a class="videolink" target="_blank" href="http://www.dotnetnuke.com/Resources/Video-Library/7.0/introduction.aspx?v=7.0.0">Watch the Video</a></p>
+</div>
+</div>
+<div class="slide">
+<div id="Presonalize" class="presonalize">
+<h5 class="SubHead">Personalize your Educational Profile</h5>
+<p>&nbsp;</p>
+<p>
+</p>
+<p>Are you ready to make progress on your G-Score?
+<br />
+We have the resources and tools to do just about anything you can imagine.
+</p>
+<h5 class="SubHead">I want to...</h5>
+<span class="storeImage">
+<a class="storeSkins" href="http://store.dotnetnuke.com/skins"><img alt="" src="/portals/0/../../Images/Spacer.gif" /></a>
+</span>
+<div class="storeInfo">
+<h6 class="visitStoreLink"><a target="_blank" href="http://store.dotnetnuke.com/skins">Increase your educational background</a></h6>
+Find mentors,enroll courses,learn and share on the fly.
+</div>
+<span class="storeImage">
+<a class="storeModules" href="http://store.dotnetnuke.com/modules"><img alt="" src="/portals/0/../../Images/Spacer.gif" /></a>
+</span>
+<div class="storeInfo">
+<h6 class="visitStoreLink"><a target="_blank" href="http://store.dotnetnuke.com/modules">Land a job</a></h6>
+Enhance your career by finding an internship or job.
+</div>
+<hr />
+<h6 class="visitStoreLink"><a class="visitStore" target="_blank" href="http://store.dotnetnuke.com/">Visit our Marketplace</a></h6>
+</div>
+<div id="Sponsors" class="sponsors">
+<h5 class="SubHead sponsors">Sponsors</h5>
+<br />
+<a target="_blank" href="http://www.dotnetnuke.com/Admin/Vendors/BannerClickThrough.aspx?BannerId=24&amp;VendorId=21"><img src="/portals/0/../../Images/Spacer.gif" alt="ASP.net" /></a>
+<a target="_blank" class="maxasp" href="http://www.dotnetnuke.com/Admin/Vendors/BannerClickThrough.aspx?BannerId=35&amp;VendorId=49"><img src="/portals/0/../../Images/Spacer.gif" alt="CBeyond Cloud Services - Smart Hosting, Smart Choices" /></a>
+<a target="_blank" class="telerik" href="http://www.dotnetnuke.com/Admin/Vendors/BannerClickThrough.aspx?BannerId=73&amp;VendorId=63"><img src="/portals/0/../../Images/Spacer.gif" alt="Telerik - Deliver more than expected" /></a>
+<a target="_blank" class="exacttarget" href="http://www.dotnetnuke.com/Admin/Vendors/BannerClickThrough.aspx?BannerId=78&amp;VendorId=66"><img src="/portals/0/../../Images/Spacer.gif" alt="Exact Target" /></a>
+<a target="_blank" class="winlive" href="http://www.dotnetnuke.com/Admin/Vendors/BannerClickThrough.aspx?BannerId=629&amp;VendorId=21"><img src="/portals/0/../../Images/Spacer.gif" alt="Windows Live - Click here for developer resources" /></a>
+<a target="_blank" class="redgate" href="http://www.dotnetnuke.com/DesktopModules/Admin/Banners/BannerClickThrough.aspx?BannerId=29&amp;VendorId=42"><img src="/portals/0/../../Images/Spacer.gif" alt="Redgate" /></a>
+<a target="_blank" class="appliedi" href="https://www.dotnetnuke.com/DesktopModules/Admin/Banners/BannerClickThrough.aspx?BannerId=1386&amp;VendorId=143"><img src="/portals/0/../../Images/Spacer.gif" alt="Applied Innovations - Hosting with freedom to grow" /></a>
+<a target="_blank" class="arrowdesign" href="https://www.dotnetnuke.com/DesktopModules/Admin/Banners/BannerClickThrough.aspx?BannerId=1487&amp;VendorId=155&amp;PortalId=25"><img src="/portals/0/../../Images/Spacer.gif" alt="Arrow Consulting &amp; Design" /></a>
+</div>
+</div>
+</div>
+<div class="slidePrevNext">
+<a href="#" class="prev"><img alt="" src="/portals/0/../../images/arrow-left.png" /></a>
+<ul class="pagination">
+    <li><a href="#0">1</a></li>
+    <li><a href="#1">2</a></li>
+</ul>
+<a href="#" class="next"><img alt="" src="/portals/0/../../images/arrow-right.png" /></a>
+</div>
+</div>
+</div>
+<div id="GettingStartedRightPanel">
+<h5 class="SubHead">Know why you are for here?</h5>
+<p>Configure your profile.</p>
+<p>Student?Blog,discuss,collaborate and network as a team.</p>
+<p>Find mentors,learn and increase your educational reputation(G-Score)</p>
+<p><strong>Mentor/Educator</strong>? Enroll your certifications, take online classes,choose and mentor your students,sell offline courses and earn more penny with your talent.</p>
+<p><strong>Parent</strong>?Find and mentor your child,pay money for your child courses,review your child progress,why not,enroll yourself as student and start increasing your G-Score(educational reputation)</p>
+<p><strong>Organization/Institution</strong>: <a href="/LinkClick.aspx?link=55&amp;tabid=55&amp;portalid=0&amp;mid=362">Contact us</a> to learn more.</p>
+<hr class="GettingStartedSeparator" />
+<h5 class="SubHead">Looking for answers?</h5>
+<p>
+Do you have any questions, doubts or ideas to share or just want to meet some other members?
+</p>
+<ul>
+    <li><a target="_blank" href="/LinkClick.aspx?link=86&amp;tabid=55&amp;portalid=0&amp;mid=362">Find an Answer</a></li>
+    <li><a target="_blank" href="/LinkClick.aspx?link=86&amp;tabid=55&amp;portalid=0&amp;mid=362">Submit you Ideas</a></li>
+</ul>
+<hr class="GettingStartedSeparator" />
+<h5 class="SubHead">We always appreciate your feedback</h5>
+<p>We would love to hear how we're doing</p>
+<p>
+<iframe id="facebookLike" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fdotnetnuke&amp;send=false&amp;layout=button_count&amp;width=120&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 120px; height: 21px; display: none;" allowtransparency="true" onload="javascript:$('#facebookLike').show()"></iframe>
+<sup><a target="_blank" href="/Feedback.aspx" style="vertical-align: super;"><span style="font-size: 13px;">Share your feedback</span></a></sup>
+</p>
+</div>
+<div id="actions">
+<hr class="GettingStartedSeparator" />
+<ul class="dnnActions dnnClear">
+    <li> <a class="dnnSecondaryAction" href="http://www.dotnetnuke.com/Resources/Video-Library/7.0/introduction.aspx?v=7.0.0" target="_blank">Watch the Getting Started Video</a></li>
+    <li> <a href="javascript:GettingStartedNS.goTo(pageCurrentPortalAliasUrl);" class="dnnSecondaryAction" id="btnLetMeAtIn">Let me at it</a></li>
+</ul>
+</div>
+</div>

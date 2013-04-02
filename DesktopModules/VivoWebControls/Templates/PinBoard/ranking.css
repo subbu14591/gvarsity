@@ -1,0 +1,5 @@
+.vivobutton_set .ui-icon-thumb-up
+{
+    background: url(images/thumbs.png) right top;
+}
+.vivobutton_set .ui-icon-thumb-down { background: url(images/thumbs.png); }

@@ -1,0 +1,66 @@
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=configSource
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=key
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=assembly
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled
+03/20/2013 11:40:44 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:<providers><clear /><add connectionStringName="SiteSqlServer" applicationName="DotNetNuke" name="AspNetSqlRoleProvider" type="System.Web.Security.SqlRoleProvider" /></providers>
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:<providers><clear /><add connectionStringName="SiteSqlServer" applicationName="DotNetNuke" name="AspNetSqlProfileProvider" type="System.Web.Profile.SqlProfileProvider" /></providers>
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 16:58:53 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=configSource
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=key
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=assembly
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=namespace
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled
+03/20/2013 17:00:46 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=enabled

@@ -1,0 +1,22 @@
+[DropDownControl]
+    1000:Colonel,
+    500:Major,
+    250:Captain,
+    50:1Lt.,
+    0:Private
+[/DropDownControl]
+[RadioControl]
+    1000:Colonel,
+    500:Major,
+    250:Captain,
+    50:1Lt.,
+    0:Private
+[/RadioControl]
+[KarmaUpControl::Text=Increase]
+[UPDOWNCONTROL]
+[KarmaDownControl::Text=Decrease]
+[TEXTBOXCONTROL]
+[LABELCONTROL]
+[SaveControl:Image]
+[SaveControl:Link:CssClass=]
+[SaveControl:Button:CssClass=]

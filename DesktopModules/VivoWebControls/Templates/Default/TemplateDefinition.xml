@@ -1,0 +1,162 @@
+<Vivo version="1.0" type="Template">
+  <templategroups>
+
+    <templategroup name="Acceptanswer" description="Accept answer template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="acceptanswer.css" size="XL" />
+        <template name="Main" layoutfile="acceptanswer.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Autocomplete" description="Autocomplete styles">
+      <templates>
+        <template name="Style Sheet" layoutfile="autocomplete.css" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="bookmark" description="bookmark control template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="bookmark.css" size="XL" />
+        <template name="Header" layoutfile="bookmark.header.htm" size="M" />
+        <template name="Main" layoutfile="bookmark.htm" size="XL" />
+        <template name="Items" layoutfile="bookmark.item.htm" size="L" />
+        <template name="Separator" layoutfile="bookmark.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="bookmark.alternate.htm" size="L" />
+        <template name="Footer" layoutfile="bookmark.footer.htm" size="M" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Comment" description="Comment control template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="comment.css" size="XL" />
+        <template name="Main" layoutfile="comment.htm" size="XL" />
+        <template name="Items" layoutfile="comment.item.htm" size="L" />
+        <template name="Separator" layoutfile="comment.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="comment.alternate.htm" size="L" />
+        <template name="Comment Index Subject" layoutfile="comment.notify.index.subject.htm" size="XS" />
+        <template name="Comment Index Content" layoutfile="comment.notify.index.content.htm" size="XL" />
+        <template name="Comment Message Subject" layoutfile="comment.notify.message.subject.htm" size="XS" />
+        <template name="Comment Message Content" layoutfile="comment.notify.message.content.htm" size="XL" />
+        <template name="Comment Profilemedia Subject" layoutfile="comment.notify.profilemedia.subject.htm" size="XS" />
+        <template name="Comment Profilemedia Content" layoutfile="comment.notify.profilemedia.content.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="ExternalServicesSelector" description="ExternalServicesSelector control template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="externalservicesselector.css" size="XL" />
+        <template name="Items" layoutfile="externalservicesselector.item.htm" size="L" />
+        <template name="Separator" layoutfile="externalservicesselector.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="externalservicesselector.alternate.htm" size="L" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Flagging" description="Flagging template files">
+      <templates>
+        <template name="Main" layoutfile="flagging.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="karma" description="karma template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="karma.css" size="XL" />
+        <template name="Main" layoutfile="karma.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Maplocation" description="Map location template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="maplocation.css" size="XL" />
+        <template name="Main" layoutfile="maplocation.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="MiniProfile" description="Mini Profile template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="MiniProfile.css" size="XL" />
+        <template name="Main" layoutfile="MiniProfile.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="PagingControl" description="Paging control template files">
+      <templates>
+        <template name="Main" layoutfile="pagingcontrol.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Permission" description="Permission template files">
+      <templates>
+        <template name="Main" layoutfile="permission.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Privacy" description="Privacy template files">
+      <templates>
+        <template name="Main" layoutfile="Privacy.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="ranking" description="ranking template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="ranking.css" size="XL" />
+        <template name="Main" layoutfile="ranking.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="rating" description="rating template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="rating.css" size="XL" />
+        <template name="Main" layoutfile="rating.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="recommend" description="recommend template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="recommend.css" size="XL" />
+        <template name="Main" layoutfile="recommend.htm" size="XL" />
+        <template name="Items" layoutfile="recommend.item.htm" size="L" />
+        <template name="Separator" layoutfile="recommend.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="recommend.alternate.htm" size="L" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="ResizableTextArea" description="ResizableTextArea styles">
+      <templates>
+        <template name="Style Sheet" layoutfile="resizabletextarea.css" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="RSSReader" description="RSSReader template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="rssreader.css" size="XL" />
+        <template name="Main" layoutfile="rssreader.htm" size="XL" />
+        <template name="Items" layoutfile="rssreader.item.htm" size="L" />
+        <template name="Separator" layoutfile="rssreader.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="rssreader.alternate.htm" size="L" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="ShareThis" description="ShareThis template files">
+      <templates>
+        <template name="Main" layoutfile="ShareThis.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+    <templategroup name="Wall" description="Wall control template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="wall.css" size="XL" />
+        <template name="Header" layoutfile="wall.header.htm" size="M" />
+        <template name="Main" layoutfile="wall.htm" size="XL" />
+        <template name="Items" layoutfile="wall.item.htm" size="L" />
+        <template name="Separator" layoutfile="wall.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="wall.alternate.htm" size="L" />
+        <template name="Footer" layoutfile="wall.footer.htm" size="M" />
+        <template name="Default Subject" layoutfile="wall.notify.default.subject.htm" size="XS" />
+        <template name="Default Content" layoutfile="wall.notify.default.content.htm" size="XL" />
+        <template name="Group Subject" layoutfile="wall.notify.Group.subject.htm" size="XS" />
+        <template name="Group Content" layoutfile="wall.notify.Group.content.htm" size="XL" />
+      </templates>
+    </templategroup>
+
+  </templategroups>
+</Vivo>

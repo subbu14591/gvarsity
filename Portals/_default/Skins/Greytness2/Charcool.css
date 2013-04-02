@@ -1,0 +1,160 @@
+#Body { background: #000; }
+
+.topBar { background: #000; min-height: 8px; margin: 0; padding: 0; }
+
+.headerDiv { background: url(graphics/charcool_hdr_bg.gif) top repeat-x; position: relative; border-bottom: #222 1px solid; z-index: 1000; }
+
+.header { background: url(graphics/charcool_hdr_center_bg.gif) top no-repeat; display: block; margin: 0 auto; width: 960px; position: relative; }
+
+div.language-object span.Language img { width: 20px; margin: 5px 0px 5px 0; }
+
+div.language-object span.Language.selected img { border: 2px solid #555; }
+
+.menu { position:absolute; right:0px; top:1px; float:none; width:auto; text-transform:uppercase; z-index:1000; }
+
+.bannerPane { background: #FFF; border-top: #EAEAEA 1px solid; border-bottom: #D9D9D9 1px solid; z-index: 0; }
+
+.pageTitleDiv { background: #EAEAEA; border-bottom: #FFF 1px solid; }
+
+.Banner { position: relative; }
+
+.Banner .action-buttons { position: absolute; bottom: 0px; right: 0px; }
+
+.pageTitlePane .Normal,
+.pageTitlePane .normal { line-height: 1.2em; margin: 0; padding: 0; font-size: 1.7em; color: #666; white-space: normal; text-shadow: 0.03em 0.03em #FFF; }
+
+.pageTitlePane p { color: #666; }
+
+.pageTitleWidth { width: 960px; display: block; margin: 0 auto; padding: 20px 0; }
+
+.pageName { position: absolute; right: 10px; bottom: -1px; background: url(graphics/charcool_title2_bg.gif) top left; display: block; height: 35px; }
+
+.pageName span { color: #5D5D5D; font-size: 1.4em; text-transform: uppercase; letter-spacing: -.05em; text-shadow: 0.03em 0.03em #FFF; background: url(graphics/charcool_title2_bg_cap.gif) top right no-repeat; line-height: 35px; padding: 0px 18px 0px 18px; display: block; }
+
+.contentShadow1 { background: #CFCFCF; height: 1px; position: relative; }
+
+.contentShadow2 { background: #E0E0E0; height: 1px; position: relative; }
+
+.contentShadow3 { background: #ECECEC; height: 1px; position: relative; }
+
+.pageContent { background: #FAFAFA; padding: 20px 0 10px; }
+
+.TopPane { clear: both; margin-bottom: 0px; }
+
+.ContentPane { margin-bottom: 0; }
+
+.pageWidth { display: block; width: 960px; margin: 0 auto; }
+
+.breadcrumbdiv { color: #BBB; font-size: .8em; padding: 3px 0 10px 0; }
+
+.breadcrumbdiv a { color: #BBB !important; }
+
+.breadcrumb-pretext { background: url(graphics/bg_home.gif) center bottom no-repeat; height: 12px; width: 12px; margin-right: 2px; text-indent: -500px; overflow: hidden; display: block; }
+
+.subPageTop { background: url(graphics/charcool_subpage_top.gif) left top no-repeat; }
+
+.subPageContent { background: url(graphics/charcool_subpage_bg.gif) repeat-y; clear: both; }
+
+.subPageBottom { background: url(graphics/charcool_subpage_bottom.gif) left bottom no-repeat; }
+
+.preFooterDiv { height: 10px; border-bottom: 1px solid #131313; background: #000; }
+
+.Search { padding: 0; }
+
+#dnn_dnnSEARCH_txtSearch.NormalTextBox { background: none; background-color: #1F1F1F; border-top: #0C0C0C 1px solid; border-left: #0C0C0C 1px solid; border-right: #333 1px solid; border-bottom: #333 1px solid; color: #FFF; }
+
+.charcoolFooterContentDiv { background: #111 url(graphics/charcool_footer_bg.gif) repeat; border-bottom: 1px solid #2A2A2A; padding: 10px 0; }
+
+.charcoolFooterContent { display: block; position: relative; margin: 0 auto; width: 960px; }
+
+.FooterPane .Normal,
+.FooterPane p,
+.FooterPane h1,
+.FooterPane h2,
+.FooterPane h3,
+.FooterPane h4,
+.FooterPane h5,
+.FooterPane h6 { color: #CCC; }
+
+/*-- Styles for footer lists.         --*/
+.FooterPane ul { width: 158px; display: inline; float: left; padding: 0; margin: 0px 40px 20px 0; font-size: 1em; }
+
+.FooterPane li { list-style: none; list-style-image: none; list-style-position: outside; color: #CCC; }
+
+.FooterPane li.listHeader { font-size: 1.2em; border-bottom: #666 1px solid; margin: 0 0 3px 0; background: none; color: #FFF; }
+
+.FooterPane li.listHeader a { padding: 0; color: #FFF; }
+
+.FooterPane li.additionalHeader { font-size: 1.2em; border-bottom: #666 1px solid; margin: 18px 0 3px 0; color: #FFF; }
+
+.FooterPane li a { text-decoration: none; color: #999; border-bottom: #1B1B1B dotted 1px; display: block; padding: 0px 0 5px 0; }
+
+.FooterPane li a:hover { color: #CCC; text-decoration: underline; }
+
+.charcoolFooterDiv { background: #000; padding-top: 5px; }
+
+.charcoolFooter { display: block; width: 960px; margin: 0 auto; }
+
+.charcoolFooter ul { list-style: none; margin: 0; padding: 0; }
+
+.charcoolFooter li { list-style: none; display: block; float: left; text-transform: uppercase; font-size: 0.9em; }
+
+.charcoolFooter { font-size: .8em; line-height: 1.8em; text-decoration: none; color: #999; }
+
+.charcoolFooter,
+.charcoolFooter a,
+.charcoolFooter #dnn_dnnUSER_cmdRegister,
+.charcoolFooter #dnn_dnnUSER_registerLink,
+.charcoolFooter #dnn_dnnLOGIN_cmdLogin { color: #999; }
+
+.designBy { clear: both; margin-bottom: 0; padding-bottom: 20px; color: #666; }
+
+.designBy a { color: #666; }
+
+/*========================================================+
+|  Panes in the Page                                      |
++========================================================*/
+
+.subPageLeftDiv { float: left; width: 270px; display: block; }
+
+.subLeftPane { }
+
+.subPageContentDiv { float: right; width: 650px; display: block; }
+
+.subTopPane { }
+
+.subMiddleLeftPane { float: left; width: 310px; display: block; }
+
+.subMiddleRightPane { float: right; width: 310px; display: block; }
+
+.subBottomPane { }
+
+.ContentPaneDiv { clear: both; }
+
+.TopLeftPane { width: 470px; }
+
+.TopRightPane { width: 470px; }
+
+.LeftPane { width: 290px; }
+
+.ContentPane2 { width: 650px; }
+
+.ContentPane3 { width: 650px; }
+
+.RightPane { width: 290px; }
+
+.MiddleLeftPane { width: 306px; }
+
+.MiddlePane { width: 306px; }
+
+.MiddleRightPane { width: 306px; }
+
+.BottomColumn1 { width: 225px; }
+
+.BottomColumn2 { width: 225px; }
+
+.BottomColumn3 { width: 225px; }
+
+.BottomColumn4 { width: 225px; }
+
+.FooterPane { width: 800px; }

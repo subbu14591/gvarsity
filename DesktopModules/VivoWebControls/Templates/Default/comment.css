@@ -1,0 +1,38 @@
+/* Article Comments */	
+.Comment { float: left; width:100%; padding-bottom:5px; }
+
+.UserInfo { display:table; height:40px;}
+
+.userAvatar { float: left; margin: 0 10px 0 0; display:inline; }
+.SubHeader {  padding-top: 8px; font-size: 17px; float: left; text-align:left; vertical-align:top; }
+.SubHeader a { font: normal 17px Georgia; }
+
+.SubHeader { float: left; margin: 2px 0px; }
+.SubHeader a { font-size: 12px; }
+
+.UserText { position: relative; display: block; }
+.UserText .Arrow { background: url(images/comment_arrow.gif) no-repeat;  height: 13px; position: relative; margin-left: 125px; top: 1px; _top: 1px; }
+.UserText p { border: solid 1px #DDE2E6; padding: 8px; margin: 0px; }
+.UserText p span { color: #999; font-size:11px; }
+
+#UserTextLink, #UserTextLink a:link, #UserTextLink a:active, #UserTextLink a:visited{color:#4A7195; font-size:15px; font-weight:bold; text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif;}
+#UserTextLink a:hover{color: #666; font-size:15px; font-weight:bold; text-decoration:none;}
+
+.IsEditTable {padding:2px 5px 2px 5px; display:table;}
+
+.CommentRSSLinkWrapper {padding-top:5px; padding-bottom:10px;}
+ 
+#CommentRSSLink, #CommentRSSLink a:link, #CommentRSSLink a:active, #CommentRSSLink a:visited {color:#F60; font-size:100%; font-weight:bold; text-decoration:none;}
+#CommentRSSLink a:hover{color: #666; font-size:100%; font-weight:bold; text-decoration:none;}
+
+.SubmitCommentWrapper { float:right; padding-top:10px}
+.SubmitCommentBtn { background: #e6e6e6; display: block; cursor:pointer; height: 26px; line-height: 26px; border: #CCC 1px solid; width:75x; white-space:nowrap; text-align:center;}
+
+#SubmitCommentLink, #SubmitCommentLink a:link, #SubmitCommentLink a:active, #SubmitCommentLink a:visited {color:#4A7195; font-size:100%; font-weight:bold; text-decoration:none;}
+#SubmitCommentLink a:hover{color: #09F; font-size:100%; font-weight:bold; text-decoration:none;}
+
+#PermalinkLink, #PermalinkLink a:link, #PermalinkLink a:active, #PermalinkLink a:visited {color:#4A7195; font-size:11px; font-weight:bold; text-decoration:none;}
+#PermalinkLink a:hover{color: #666; font-size:11px; font-weight:bold; text-decoration:none;}
+
+#IsEditTableLink, #IsEditTableLink a:link, #IsEditTableLink a:active, #IsEditTableLink a:visited {color:#666; font-size:11px; font-weight:bold; text-decoration:none;}
+#IsEditTableLink a:hover{color:#4A7195; font-size:11px; font-weight:bold; text-decoration:none;}

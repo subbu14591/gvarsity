@@ -1,0 +1,11 @@
+.BorderBgDiv { width:980px; margin:0px auto 0 auto; padding:0px; clear: both; border:none; }
+.TopDiv { background:url(graphics/BorderedTop_bg.png) top no-repeat; height:15px; display:block; }
+
+/* Set the background for page content. */
+.contentWrapper { background:url(graphics/BorderedContent_bg.png) top center repeat-y; }
+.fullWidth { width:962px; padding:0; margin:0 auto; border-bottom: #CCC 1px solid; position:relative; }
+.BottomDiv { background:url(graphics/BorderedBottom_bg.png) bottom no-repeat; height:2.5em; clear:both; position:relative;}
+.designBy { font-size:10px; color:#B2B2B2; text-align:center; margin-bottom:20px }
+
+#GreytnessMidnight .contentWrapper { background:url(graphics/BorderedContentMidnight_bg.png) top center repeat-y; }
+

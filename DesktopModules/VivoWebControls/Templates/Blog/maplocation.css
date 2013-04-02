@@ -1,0 +1,7 @@
+.maplocation_border {
+	border:1px solid #979797;	
+}
+
+.maplocation_latlong {
+	border-bottom: solid 0 #979797;
+}

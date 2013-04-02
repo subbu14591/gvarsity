@@ -1,0 +1,38 @@
+.ui-stars-star-0,
+.ui-stars-star-0 a,
+.ui-stars-star-1,
+.ui-stars-star-1 a {
+	background:url(images/As.gif) no-repeat 0 0px;
+}
+
+.ui-stars-star-2,
+.ui-stars-star-2 a, 
+.ui-stars-star-3,
+.ui-stars-star-3 a {
+	background:url(images/Bs.gif) no-repeat 0 0px;
+}
+
+.ui-stars-star-4,
+.ui-stars-star-4 a, 
+.ui-stars-star-5,
+.ui-stars-star-5 a {
+	background:url(images/Cs.gif) no-repeat 0 0px;
+}
+
+.ui-stars-star-6,
+.ui-stars-star-6 a,
+.ui-stars-star-7,
+.ui-stars-star-7 a {
+	background:url(images/Ds.gif) no-repeat 0 0px;
+}
+
+.ui-stars-star-8,
+.ui-stars-star-8 a, 
+.ui-stars-star-9,
+.ui-stars-star-9 a {
+	background:url(images/Fs.gif) no-repeat 0 0px;
+}
+
+.ui-stars-star-hover a {
+	background-position:0 -32px
+}

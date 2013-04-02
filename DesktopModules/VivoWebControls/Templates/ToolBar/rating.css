@@ -1,0 +1,73 @@
+/* Rating */
+.ratingStar 
+{
+    font-size: 0pt;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+	padding:2px 2px 2px 2px;
+}
+.ratingview {
+    font-size:10px;
+	color:#666666;
+	padding:3px;
+}
+.ratingaverage {
+    font-size:10px;
+	color:#666666;
+	text-align:left;
+	padding:3px;
+}
+.ratingstitle {
+    color:#666666;
+	font-weight:bold;
+	font-size:11px;
+} 
+.divpadding
+{
+    padding:2px 2px 2px 2px;
+}
+
+.filledRatingStar
+{
+    background-image: url(Images/FilledStar.png);
+
+}
+
+.emptyRatingStar
+{
+    background-image: url(Images/EmptyStar.png);
+}
+
+.waitingStarCssClass
+{
+    background-image: url(Images/ratingAnimation.gif);
+}
+
+.savedRatingStar
+{
+    background-image: url(Images/SavedStar.png);
+}
+
+.readOnly .ratingStar
+{
+	cursor:default;
+}
+
+table.tooltip 
+{
+	width: 250px;
+}
+div.statwrapper 
+{
+	background-color: #ccc;
+	height: 18px;
+	width: 100%;
+}
+
+div.statwrapper img
+{
+	height: 18px;
+}

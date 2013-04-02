@@ -1,0 +1,18 @@
+.RepinWindow { }
+
+.RepinWindow .text {
+    margin-bottom: 8px;
+    padding: .4em;
+}
+.RepinWindow .fullwidth {
+    width: 80%;
+    min-width: 250px;
+}
+.RepinWindow .Thumbnail { float: left; width: 120px; }
+.RepinWindow .Content { float: left;  }
+
+.RepinWindow .Content TEXTAREA { resize:vertical; height: 30px; }
+
+.RepinWindowMsg .Content { text-align: center; }
+
+.RepinWindowMsg .RepinWindowMsgBoardTitle { font-weight: bold; }

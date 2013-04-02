@@ -1,0 +1,32 @@
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:<providers><clear /><add connectionStringName="SiteSqlServer" applicationName="DotNetNuke" name="AspNetSqlRoleProvider" type="System.Web.Security.SqlRoleProvider" /></providers>
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:<providers><clear /><add connectionStringName="SiteSqlServer" applicationName="DotNetNuke" name="AspNetSqlProfileProvider" type="System.Web.Profile.SqlProfileProvider" /></providers>
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:09 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+03/24/2013 04:27:10 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="MyPosts.Text">
+        <value>My Posts</value>
+    </data>
+    <data name="Unread.Text">
+        <value>Unread</value>
+    </data>
+    <data name="NewThread.Text">
+        <value>New Thread</value>
+    </data>
+    <data name="Forum.Text">
+        <value>Forum</value>
+    </data>
+    <data name="Threads.Text">
+        <value>Threads</value>
+    </data>
+    <data name="Posts.Text">
+        <value>Posts</value>
+    </data>
+    <data name="LastPost.Text">
+        <value>Last Post</value>
+    </data>
+    <data name="Anonymous.Text">
+        <value>Anonymous</value>
+    </data>
+    <data name="Replies.Text">
+        <value>Replies</value>
+    </data>
+    <data name="Views.Text">
+        <value>Views</value>
+    </data>
+    <data name="By.Text">
+        <value>by</value>
+    </data>
+    <data name="Author.Text">
+        <value>Author</value>
+    </data>
+    <data name="Messages.Text">
+        <value>Messages</value>
+    </data>
+    <data name="Posted.Text">
+        <value>Posted</value>
+    </data>
+    <data name="Quote.Text">
+        <value>Quote</value>
+    </data>
+    <data name="Reply.Text">
+        <value>Reply</value>
+    </data>
+    <data name="Delete.Text">
+        <value>Delete</value>
+    </data>
+    <data name="Edit.Text">
+        <value>Edit</value>
+    </data>
+    <data name="Administrator.Text">
+        <value>Administrator</value>
+    </data>
+    <data name="MySettings.Text">
+        <value>My Settings</value>
+    </data>
+    <data name="Home.Text">
+        <value>Home</value>
+    </data>
+    <data name="ReplyTo.Text">
+        <value>Reply To</value>
+    </data>
+    <data name="Subject.Text">
+        <value>Subject</value>
+    </data>
+    <data name="Message.Text">
+        <value>Message</value>
+    </data>
+    <data name="Submit.Text">
+        <value>Submit</value>
+    </data>
+    <data name="Cancel.Text">
+        <value>Cancel</value>
+    </data>
+    <data name="Separator.Text">
+        <value>&amp;raquo;</value>
+    </data>
+    <data name="ThreadPinned.Text">
+        <value>Thread Pinned</value>
+    </data>
+    <data name="ThreadLocked.Text">
+        <value>Thread Locked</value>
+    </data>
+    <data name="Add.Text">
+        <value>Add</value>
+    </data>
+    <data name="Confirm.Text">
+        <value>Are You Sure?</value>
+    </data>
+    <data name="Said.Text">
+        <value>said</value>
+    </data>
+    <data name="AuthorID.Text">
+        <value>Author ID</value>
+    </data>
+    <data name="Username.Text">
+        <value>Username</value>
+    </data>
+    <data name="Signature.Text">
+        <value>Signature</value>
+    </data>
+    <data name="Avatar.Text">
+        <value>Avatar</value>
+    </data>
+    <data name="RemoveAvatar.Text">
+        <value>Remove Avatar</value>
+    </data>
+    <data name="Location.Text">
+        <value>Location</value>
+    </data>
+    <data name="NotApplicable.Text">
+        <value>N/A</value>
+    </data>
+    <data name="Update.Text">
+        <value>Update</value>
+    </data>
+    <data name="Previous.Text">
+        <value>Previous</value>
+    </data>
+    <data name="Next.Text">
+        <value>Next</value>
+    </data>
+    <data name="Page.Text">
+        <value>Page</value>
+    </data>
+    <data name="Search.Text">
+        <value>Search</value>
+    </data>
+    <data name="AllWords.Text">
+        <value>All Words</value>
+    </data>
+    <data name="AnyWords.Text">
+        <value>Any Words</value>
+    </data>
+    <data name="Phrase.Text">
+        <value>Phrase</value>
+    </data>
+    <data name="SubscribeTo.Text">
+        <value>Subscribe to</value>
+    </data>
+    <data name="UnsubscribeFrom.Text">
+        <value>Unsubscribe from</value>
+    </data>
+    <data name="Thread.Text">
+        <value>Thread</value>
+    </data>
+    <data name="NewPosts.Text">
+        <value>New Posts</value>
+    </data>
+    <data name="Image.Text">
+        <value>Image</value>
+    </data>
+    <data name="Upload.Text">
+        <value>Upload</value>
+    </data>
+    <data name="ImageUploadInfo.Text">
+        <value>You can use the Upload button to upload multiple images</value>
+    </data>
+    <data name="IP.Text">
+        <value>IP</value>
+    </data>
+    <data name="EditThread.Text">
+        <value>Edit Thread</value>
+    </data>
+    <data name="NoThreadsInfo.Text">
+        <value>No posts yet ...</value>
+    </data>
+    <data name="Moderator.Text">
+        <value>Moderator</value>
+    </data>
+    <data name="Statistics.Text">
+        <value>Statistics</value>
+    </data>
+    <data name="ThereAre.Text">
+        <value>There are</value>
+    </data>
+    <data name="Forums.Text">
+        <value>Forums</value>
+    </data>
+    <data name="MostRecentPost.Text">
+        <value>The most recent post was by</value>
+    </data>
+    <data name="On.Text">
+        <value>on</value>
+    </data>
+    <data name="TotalUsers.Text">
+        <value>The total number of users are</value>
+    </data>
+    <data name="MostActiveUser.Text">
+        <value>The most active user is</value>
+    </data>
+    <data name="PostsIn.Text">
+        <value>Posts in</value>
+    </data>
+    <data name="ThreadsIn.Text">
+        <value>Threads in</value>
+    </data>
+    <data name="CacheUpdated.Text">
+        <value>Statistics are updated every</value>
+    </data>
+    <data name="Seconds.Text">
+        <value>Seconds</value>
+    </data>
+    <data name="AuthorAdminText.Text">
+        <value>Admin Text</value>
+    </data>
+    <data name="PostsLast24Hours.Text">
+        <value>message(s) have been posted in the last 24 hours</value>
+    </data>
+    <data name="Moderators.Text">
+        <value>Moderators</value>
+    </data>
+    <data name="Subscriptions.Text">
+        <value>Subscriptions</value>
+    </data>
+    <data name="NoSubscriptions.Text">
+        <value>No Subscriptions</value>
+    </data>
+    <data name="AboutMe.Text">
+        <value>About Me</value>
+    </data>
+    <data name="AboutMeInfo.Text">
+        <value>Tell us a little bit about yourself. Basic HTML is allowed.</value>
+    </data>
+    <data name="SignatureInfo.Text">
+        <value>Your signature is displayed below your forum posts. Basic HTML is allowed.</value>
+    </data>
+    <data name="UnsubscribeInfo.Text">
+        <value>To unsubscribe from this forum or thread, please visit the forum and go to My Settings.</value>
+    </data>
+    <data name="RSSFeed.Text">
+        <value>RSS Feed</value>
+    </data>
+    <data name="Yes.Text">
+        <value>Yes</value>
+    </data>
+    <data name="No.Text">
+        <value>No</value>
+    </data>
+</root>

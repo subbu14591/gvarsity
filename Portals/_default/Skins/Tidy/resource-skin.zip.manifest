@@ -1,0 +1,76 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path>css/</path>
+      <name>remove_breadcrumbs.css</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>noise.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>social_sprite.png</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>tidy_icon.png</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>tidy.js</name>
+    </file>
+    <file>
+      <path>tidyMenu/</path>
+      <name>tidyMenu.css</name>
+    </file>
+    <file>
+      <path>tidyMenu/</path>
+      <name>tidyMenu.js</name>
+    </file>
+    <file>
+      <path>tidyMenu/</path>
+      <name>tidyMenudef.xml</name>
+    </file>
+    <file>
+      <path>tidyMenu/</path>
+      <name>ULTokens.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>editor.css</name>
+    </file>
+    <file>
+      <path />
+      <name>skin.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Tidy.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Tidy.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Tidy.doctype.xml</name>
+    </file>
+    <file>
+      <path />
+      <name>TidySocial.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>TidySocial.css</name>
+    </file>
+    <file>
+      <path />
+      <name>TidySocial.doctype.xml</name>
+    </file>
+    <file>
+      <path>graphics/</path>
+      <name>attribution_logo.png</name>
+    </file>
+  </files>
+</dotnetnuke>

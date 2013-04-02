@@ -1,0 +1,163 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}DownloadsSettings') AND OBJECTPROPERTY(id, N'IsTable') = 1)
+  BEGIN
+
+	IF EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='LangDe') 
+      ALTER TABLE DownloadsSettings
+      DROP COLUMN LangDe
+
+	IF EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='LangFr') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings
+      DROP COLUMN LangFr
+
+	IF EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='LangEn') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings
+      DROP COLUMN LangEn
+
+	IF EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='LangIt') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings
+      DROP COLUMN LangIt
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='SupportedLanguages') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD SupportedLanguages nvarchar(800) NULL
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='OpenLevel') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD OpenLevel int NULL DEFAULT 1 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='SupportedExtensions') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD SupportedExtensions nvarchar(800) NULL
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='DownloadTarget') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD DownloadTarget nvarchar(50) NULL
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='Type') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD Type int NULL DEFAULT 0 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='SuspendUnderlines') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD SuspendUnderlines Bit NULL DEFAULT 0 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='SuspendDate') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD SuspendDate bit NULL DEFAULT 0 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='MappingType') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD MappingType int NULL DEFAULT 0 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='UseEncoding') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD UseEncoding bit NULL DEFAULT 1 WITH VALUES
+
+	IF NOT EXISTS (SELECT * FROM SysObjects O INNER JOIN SysColumns C ON O.ID = C.ID
+	WHERE ObjectProperty(O.ID,'IsTable') = 1
+	  AND O.Name='{objectQualifier}DownloadsSettings'
+	  AND C.Name='LayoutType') 
+      ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+    ADD LayoutType int NULL DEFAULT 0 WITH VALUES
+
+  END
+ELSE
+  BEGIN
+
+	CREATE TABLE {databaseOwner}{objectQualifier}DownloadsSettings (
+	  ModuleID            int NOT NULL,
+	  InternalPath        nvarchar(800) NULL,
+	  PublicUrl           nvarchar(800) NULL,
+	  ImageUrl            nvarchar(800) NULL,
+	  UseDefaultLink      bit NULL,
+	  UseTitleLink        bit NULL,
+	  SupportedLanguages  nvarchar(800) NULL,
+	  OpenLevel           int NULL,
+	  SupportedExtensions nvarchar(800) NULL,
+	  DownloadTarget      nvarchar(50) NULL,
+	  Type                int NULL,
+	  SuspendUnderlines   bit NULL,
+	  SuspendDate         bit NULL,
+	  MappingType         int NULL,
+	  UseEncoding         bit NULL,
+	  LayoutType          int NULL
+	)
+
+	ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+	ADD CONSTRAINT PK_DownloadsSettings PRIMARY KEY CLUSTERED  (ModuleID)
+
+	ALTER TABLE {databaseOwner}{objectQualifier}DownloadsSettings 
+	ADD CONSTRAINT FK_DownloadsSettings_Modules FOREIGN KEY (ModuleID) 
+	REFERENCES {databaseOwner}{objectQualifier}Modules (ModuleID) ON DELETE CASCADE NOT FOR REPLICATION
+
+  END
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}AddDownloadsSettings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE {databaseOwner}{objectQualifier}AddDownloadsSettings
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}DeleteDownloadsSettings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE {databaseOwner}{objectQualifier}DeleteDownloadsSettings
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}GetDownloadsSettings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE {databaseOwner}{objectQualifier}GetDownloadsSettings
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}{objectQualifier}UpdateDownloadsSettings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE {databaseOwner}{objectQualifier}UpdateDownloadsSettings
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

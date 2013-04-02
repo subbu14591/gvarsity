@@ -1,0 +1,285 @@
+/*-----------------------*/
+/* BLOCK : Main elements */
+/*-----------------------*/
+.ptfContainer, .ptfContainer A
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+}
+.ptfMainTable
+{
+    margin: 3px 0 3px 0;
+    border: 1px #bbb solid;
+    border-collapse: collapse;
+}
+.ptfMainTable TD
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+}
+.ptfStatistics
+{
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 11px;
+}
+/*------------------*/
+/* BLOCK : Headings */
+/*------------------*/
+.ptfHeadingMain, .ptfHeadingMain TD
+{
+    background-color: #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    padding: 2px 7px 2px 7px;
+}
+.ptfHeadingSub, .ptfHeadingSub TD
+{
+    background-color: #ddd;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    padding: 2px 7px 2px 7px;
+}
+/*------------------*/
+/* BLOCK : Footer   */
+/*------------------*/
+.ptfFooter
+{
+    background-color: #ccc;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 8pt;
+    border-top: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    padding: 2px 7px 2px 7px;
+}
+.ptfFooter SELECT
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 7pt;
+}
+/*---------------------*/
+/* BLOCK : Normal Rows */
+/*---------------------*/
+.ptfRow, .ptfRow TD
+{
+    background-color: #eee;
+    border: 1px #bbb solid;
+    padding: 2px 7px 2px 7px;
+}
+/*------------------*/
+/* BLOCK : Forms    */
+/*------------------*/
+.ptfFormLabel
+{
+    font-weight: bold;
+    border: 1px #bbb solid;
+    background-color: #ddd;
+    padding: 2px 7px 2px 7px;
+}
+.ptfFormSubLabel
+{
+    font-weight: normal;
+    border: 1px #bbb solid;
+    background-color: #ddd;
+    padding: 2px 7px 2px 7px;
+}
+.ptfFormData
+{
+    border: 1px #bbb solid;
+    background-color: #eee;
+    padding: 2px 7px 2px 7px;
+}
+/*-----------------------*/
+/* BLOCK : Miscellaneous */
+/*-----------------------*/
+.ptfHelp, .ptfHelp TD
+{
+    font-size: 10px;
+    font-family: Verdana, Tahoma, Arial;
+    background-color: #ccc;
+    border: 1px #bbb solid;
+    padding: 2px 7px 2px 7px;
+    margin: 3px 0 0 0;
+}
+.ptfErrorMessage
+{
+    font-weight: bold;
+    color: Red;
+    background-color: #eee;
+    border: 1px Red solid;
+    padding: 5px;
+    margin: 3px 0 10px 0;
+}
+.ptfBreadCrumb
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 0 6px 3px;
+}
+.ptfQuote
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    background-color: #F9F9F9 !important;
+    border: 1px #ccc dashed !important;
+    padding: 3px !important;
+}
+.ptfLegends
+{
+    font-size: 11px;
+    padding: 10px 0 6px 3px;
+}
+.ptfPoweredBy, .ptfPoweredBy A
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 10px;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+.ptfSmilies
+{
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+/*-------------------------*/
+/* INLINE : Text and Links */
+/*-------------------------*/
+.ptfBoldText, .ptfBoldText A:Link, .ptfBoldText A:Visited, .ptfBoldText A:Active, .ptfBoldText A:Hover
+{
+    font-weight: bold;
+}
+.ptfReadLink A:Link, .ptfReadLink A:Visited, .ptfReadLink A:Active, .ptfReadLink A:Hover
+{
+    font-weight: normal;
+}
+.ptfUnReadLink A:Link, .ptfUnReadLink A:Visited, .ptfUnReadLink A:Active, .ptfUnReadLink A:Hover
+{
+    font-weight: bold;
+}
+.ptfSmallText, .ptfSmallText A:Link, .ptfSmallText A:Visited, .ptfSmallText A:Active, .ptfSmallText A:Hover
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 10px;
+}
+.ptfForumDesc
+{
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 10px;
+}
+.ptfForumMods
+{
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 10px;
+    color: #888;
+}
+/*----------------*/
+/* Action Buttons */
+/*----------------*/
+.ptfActionButtonContainer
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 11px;
+    padding: 5px 0 5px 0;
+}
+.ptfActionButtonContainer IMG
+{
+    vertical-align: middle;
+}
+.ptfActionButton, .ptfActionButton:Link, .ptfActionButton:Visited, .ptfActionButton:Active
+{
+    font-family: Tahoma, MS Sans Serif, Arial, Sans Serif;
+    font-weight: normal;
+    font-size: 8pt;
+    color: #000000;
+    cursor: hand;
+    border: solid 1px #808080;
+    background: url(images/ptButtonBack.gif) center;
+    padding: 2px 3px 2px 3px;
+}
+.ptfActionButton:Hover
+{
+    color: red;
+    text-decoration: underline;
+}
+/*-----------------------*/
+/* Post listing elements */
+/*-----------------------*/
+.ptfPostUserBox
+{
+    border: 1px #bbb solid;
+    background-color: #eee;
+    padding: 5px 7px 2px 7px;
+    width: 130px;
+}
+.ptfPostUserBoxName
+{
+    font-family: Arial, Verdana, Tahoma;
+    font-size: 11pt;
+    font-weight: bold;
+}
+.ptfPostUserBoxButtons IMG
+{
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+.ptfPostUserBoxPopup
+{
+    background-color: #fff;
+    border: 2px dotted black;
+    padding: 5px;
+    max-width: 300px; /* Mozilla */
+    width: expression(300 +   "px" ); /* IE */
+}
+.ptfPostUserBoxRole
+{
+    font-family: Arial, Verdana, Tahoma;
+    font-weight: bold;
+}
+.ptfPostUserBoxAvatar IMG
+{
+    margin: 5px 0 5px 0;
+}
+.ptfPostUserBoxPosts, .ptfPostUserBoxLocation
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 10px;
+}
+.ptfPostUserBoxTemplate, .ptfPostUserBoxAdminText
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 10px;
+}
+.ptfPostMessageBox
+{
+    border-top: 1px #bbb solid;
+    background-color: #eee;
+    padding: 2px 7px 10px 7px;
+}
+.ptfPostMessageHeaderBox
+{
+    border-bottom: 1px #ddd solid;
+    border-collapse: collapse;
+    padding: 5px 0px 5px 0px;
+    margin: 0 0 10px 0;
+}
+.ptfPostMessageHeaderBox TD
+{
+    padding: 5px 0 5px 0;
+}
+.ptfPostSignatureBox
+{
+    border-bottom: 1px #bbb solid;
+    background-color: #eee;
+    padding: 2px 7px 10px 7px;
+}
+.ptfPostSignature
+{
+    border-top: 1px #ddd solid;
+    padding: 5px 0px 5px 0px;
+    margin: 15px 0 0 0;
+}

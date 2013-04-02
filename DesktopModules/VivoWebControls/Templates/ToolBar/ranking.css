@@ -1,0 +1,22 @@
+.vsdRanking .Rank {
+	
+	border: solide 0px #393733;
+	text-align: center;
+	vertical-align: middle;
+	color: #666666;
+	font-weight:bold;
+	font-size:16px;
+	height:35px;
+}
+.topfadbar {
+    background-image: url(images/SD_listview_04.gif);
+	background-repeat: repeat-x;
+	background-position:left top;
+}
+.Votes {
+    font-size:10px;
+	color:#CCCCCC;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:2px;
+}

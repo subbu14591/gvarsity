@@ -1,0 +1,139 @@
+/* --------------------------------  */
+/*   DOWNLOAD                        */
+/* --------------------------------  */
+.DNN_Downloads {
+	width: 100%;
+	border-collapse: collapse;
+}
+.titelDownloadCategory {
+	width: 630px;
+	color: #2B569A;
+	font-size: 12px;	
+	font-weight: bold;
+	line-height: 22px;
+	padding-left: 1px;
+	border-bottom: 1px solid #2B569A;
+	vertical-align: middle;
+}
+.treelevel_1, a.treelevel_1:link, a.treelevel_1:visited, a.treelevel_1:hover, a.treelevel_1:active {
+	font-size: 12px;	
+	line-height: normal;
+}
+a.treelevel_1:hover, a.treelevel_1:active {
+	text-decoration: underline;
+}
+
+.treelevel_2, a.treelevel_2:link, a.treelevel_2:visited, a.treelevel_2:hover, a.treelevel_2:active {
+	font-size: 12px;	
+	line-height: normal;
+}
+a.treelevel_2:hover, a.treelevel_2:active {
+	text-decoration: underline;
+}
+
+.treelevel_3, a.treelevel_3:link, a.treelevel_3:visited, a.treelevel_3:hover, a.treelevel_3:active {
+	font-size: 12px;	
+	line-height: normal;
+}
+a.treelevel_3:hover, a.treelevel_3:active {
+	text-decoration: underline;
+}
+
+.treelevel_4, a.treelevel_4:link, a.treelevel_4:visited, a.treelevel_4:hover, a.treelevel_4:active {
+	font-size: 12px;	
+	line-height: normal;
+}
+a.treelevel_4:hover, a.treelevel_4:active {
+	text-decoration: underline;
+}
+
+.treelevel_5, a.treelevel_5:link, a.treelevel_5:visited, a.treelevel_5:hover, a.treelevel_5:active {
+	font-size: 12px;	
+	line-height: normal;
+}
+a.treelevel_5:hover, a.treelevel_5:active {
+	text-decoration: underline;
+}
+
+table.treelevel_1 {
+	width: 650px;
+}
+td.treelevel_1  {
+	width: 580px;
+}
+td.treelevel_1icon {
+	width: 70px;
+}
+table.treelevel_2 {
+	width: 630px;
+	border-collapse: collapse;
+	margin: 0px 0px 0px 20px;
+}
+td.treelevel_2  {
+	width: 560px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-indent: 10px;
+}
+td.treelevel_2icon {
+	width: 70px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+table.treelevel_3 {
+	width: 610px;
+	border-collapse : collapse;
+	margin-left: 40px;
+}
+td.treelevel_3  {
+	width: 540px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-indent: 10px;
+}
+td.treelevel_3icon {
+	width: 70px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+table.treelevel_4 {
+	width: 590px;
+	border-collapse : collapse;
+	margin-left: 60px; 
+}
+td.treelevel_4  {
+	width: 520px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-indent: 10px;
+}
+td.treelevel_4icon {
+	width: 70px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+table.treelevel_5 {
+	width: 570px;
+	border-collapse : collapse;
+	margin-left: 80px; 
+}
+td.treelevel_5  {
+	width: 500px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-indent: 10px;
+}
+td.treelevel_5icon {
+	width: 70px;
+	border-bottom : 1px dotted #9F9F9F;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

@@ -1,0 +1,219 @@
+/* Generated with SQL Enterprise Manager. Select all tables, right click
+   and select All Tasks -> Generate SQL Scripts. In Foramtiing tab,
+   deselect DROP. On Options tab, select everything under "Table Scripting
+   Options". Do a Preview and copy/paste to Notepad. Remove all COLLATE's.
+   Scan/replace [dbo].[ and replace with {databaseOwner}{objectQualifier} */
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors (
+	[AuthorID] [int] NOT NULL ,
+	[AuthorLastVisited] [char] (14) NOT NULL ,
+	[AuthorAvatar] [nvarchar] (255) NULL ,
+	[AuthorSignature] [ntext] NULL ,
+	[AuthorLocation] [nvarchar] (100) NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumForums (
+	[ForumID] [int] IDENTITY (1, 1) NOT NULL ,
+	[GroupID] [int] NOT NULL ,
+	[ForumOrder] [int] NOT NULL ,
+	[ForumName] [nvarchar] (255) NOT NULL ,
+	[ForumDesc] [ntext] NULL ,
+	[ForumAllowAnonymous] [int] NOT NULL ,
+	[ForumAllowRegistered] [int] NOT NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumGroups (
+	[GroupID] [int] IDENTITY (1, 1) NOT NULL ,
+	[PortalID] [int] NOT NULL ,
+	[ModuleID] [int] NOT NULL ,
+	[GroupOrder] [int] NOT NULL ,
+	[GroupName] [nvarchar] (255) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumNotify (
+	[NotifyID] [int] IDENTITY (1, 1) NOT NULL ,
+	[AuthorID] [int] NOT NULL ,
+	[ForumID] [int] NOT NULL ,
+	[ThreadID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumPosts (
+	[PostID] [int] IDENTITY (1, 1) NOT NULL ,
+	[ThreadID] [int] NOT NULL ,
+	[AuthorID] [int] NOT NULL ,
+	[PostMessage] [ntext] NOT NULL ,
+	[PostDateAdded] [char] (14) NOT NULL ,
+	[PostIP] [varchar] (15) NOT NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}PT_ForumThreads (
+	[ThreadID] [int] IDENTITY (1, 1) NOT NULL ,
+	[ForumID] [int] NOT NULL ,
+	[ThreadSubject] [nvarchar] (255) NOT NULL ,
+	[ThreadViews] [int] NOT NULL ,
+	[ThreadLocked] [int] NOT NULL ,
+	[ThreadPinned] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumAuthors] PRIMARY KEY  CLUSTERED 
+	(
+		[AuthorID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumForums WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumForums] PRIMARY KEY  CLUSTERED 
+	(
+		[ForumID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumGroups WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumGroup] PRIMARY KEY  CLUSTERED 
+	(
+		[GroupID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumNotify WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumNotify] PRIMARY KEY  CLUSTERED 
+	(
+		[NotifyID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumPosts WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumPosts] PRIMARY KEY  CLUSTERED 
+	(
+		[PostID]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumThreads WITH NOCHECK ADD 
+	CONSTRAINT [PK_PT_ForumThreads] PRIMARY KEY  CLUSTERED 
+	(
+		[ThreadID]
+	)  ON [PRIMARY] 
+GO
+
+ CREATE  INDEX [IX_AuthorLastVisited] ON {databaseOwner}{objectQualifier}PT_ForumAuthors([AuthorLastVisited]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_GroupID] ON {databaseOwner}{objectQualifier}PT_ForumForums([GroupID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ForumOrder] ON {databaseOwner}{objectQualifier}PT_ForumForums([ForumOrder]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ForumAllowAnonymous] ON {databaseOwner}{objectQualifier}PT_ForumForums([ForumAllowAnonymous]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ForumAllowRegistered] ON {databaseOwner}{objectQualifier}PT_ForumForums([ForumAllowRegistered]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_PortalID] ON {databaseOwner}{objectQualifier}PT_ForumGroups([PortalID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ModuleID] ON {databaseOwner}{objectQualifier}PT_ForumGroups([ModuleID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_GroupOrder] ON {databaseOwner}{objectQualifier}PT_ForumGroups([GroupOrder]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ForumID] ON {databaseOwner}{objectQualifier}PT_ForumNotify([ForumID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ThreadID] ON {databaseOwner}{objectQualifier}PT_ForumNotify([ThreadID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_AuthorID] ON {databaseOwner}{objectQualifier}PT_ForumNotify([AuthorID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ThreadID] ON {databaseOwner}{objectQualifier}PT_ForumPosts([ThreadID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_AuthorID] ON {databaseOwner}{objectQualifier}PT_ForumPosts([AuthorID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_PostDateAdded] ON {databaseOwner}{objectQualifier}PT_ForumPosts([PostDateAdded]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ForumID] ON {databaseOwner}{objectQualifier}PT_ForumThreads([ForumID]) ON [PRIMARY]
+GO
+
+ CREATE  INDEX [IX_ThreadPinned] ON {databaseOwner}{objectQualifier}PT_ForumThreads([ThreadPinned]) ON [PRIMARY]
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors ADD 
+	CONSTRAINT [FK_PT_ForumAuthors_Users] FOREIGN KEY 
+	(
+		[AuthorID]
+	) REFERENCES {databaseOwner}{objectQualifier}Users (
+		[UserID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumForums ADD 
+	CONSTRAINT [FK_PT_ForumForums_PT_ForumGroups] FOREIGN KEY 
+	(
+		[GroupID]
+	) REFERENCES {databaseOwner}{objectQualifier}PT_ForumGroups (
+		[GroupID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumGroups ADD 
+	CONSTRAINT [FK_PT_ForumGroups_Modules] FOREIGN KEY 
+	(
+		[ModuleID]
+	) REFERENCES {databaseOwner}{objectQualifier}Modules (
+		[ModuleID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION ,
+	CONSTRAINT [FK_PT_ForumGroups_Portals] FOREIGN KEY 
+	(
+		[PortalID]
+	) REFERENCES {databaseOwner}{objectQualifier}Portals (
+		[PortalID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumNotify ADD 
+	CONSTRAINT [FK_PT_ForumNotify_PT_ForumAuthors] FOREIGN KEY 
+	(
+		[AuthorID]
+	) REFERENCES {databaseOwner}{objectQualifier}PT_ForumAuthors (
+		[AuthorID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION ,
+	CONSTRAINT [FK_PT_ForumNotify_PT_ForumForums] FOREIGN KEY 
+	(
+		[ForumID]
+	) REFERENCES {databaseOwner}{objectQualifier}PT_ForumForums (
+		[ForumID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumPosts ADD 
+	CONSTRAINT [FK_PT_ForumPosts_PT_ForumThreads] FOREIGN KEY 
+	(
+		[ThreadID]
+	) REFERENCES {databaseOwner}{objectQualifier}PT_ForumThreads (
+		[ThreadID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumThreads ADD 
+	CONSTRAINT [FK_PT_ForumThreads_PT_ForumForums] FOREIGN KEY 
+	(
+		[ForumID]
+	) REFERENCES {databaseOwner}{objectQualifier}PT_ForumForums (
+		[ForumID]
+	) ON DELETE CASCADE  NOT FOR REPLICATION 
+GO
+

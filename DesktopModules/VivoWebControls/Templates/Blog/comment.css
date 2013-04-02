@@ -1,0 +1,26 @@
+.CommentPager
+{
+	width: 100%;
+	background: #444;
+	border-top: solid 3px #000;
+	padding: 10x 7px 11px 10px;	
+}
+.comment
+{
+	border-bottom: dotted 1px #ccc;
+	padding: 0px 0px 10px 0px;
+	background: #fff;
+	width: 100%
+}
+.alternate
+{
+	background: #CCCCCC;
+}
+.Selected TD
+{
+	background: transparent;
+}
+.mycomment, .mycomment .comment
+{
+	background-color: transparent;
+}

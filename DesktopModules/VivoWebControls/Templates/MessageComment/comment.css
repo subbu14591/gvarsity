@@ -1,0 +1,70 @@
+.CommentPager
+{
+	width: 100%;
+	background: #FFFFFF;
+	border: solid 1px #e6e6e6;
+	padding: 10x 7px 11px 10px;	
+}
+.commentWraper  {
+	width: 100%;
+}
+.comment
+{
+	border-bottom: dotted 1px #ccc;
+	padding: 0px 0px 10px 0px;
+	background: transparent;
+	width: 100%;
+}
+.alternate
+{
+	background: transparent;
+}
+.Selected TD
+{
+	background: transparent;
+}
+.mycomment
+{
+	font-size: medium;
+}
+.hide {
+  position:absolute;
+  left:-999px;
+  width:999px;
+}
+.Commentsli {
+  list-style:none;
+  list-style-type:none;
+  display:inline;
+  width:90%;
+}
+.Commentsli ul li {
+  list-style:none;
+  list-style-type:none;
+  display:inline;
+  width:90%;
+}
+.Commentsli li {
+  list-style:none;
+  list-style-type:none;
+  display:inline;
+  width:90%;
+}
+
+
+
+.hiddenElement {
+	display: none;
+}
+
+.blockElement {
+	display:block;
+}
+
+textarea.elastic {
+	line-height: 16px;
+	max-height: 200;
+	min-height: 20;
+	line-height: 16px;
+	width: 400px;
+}

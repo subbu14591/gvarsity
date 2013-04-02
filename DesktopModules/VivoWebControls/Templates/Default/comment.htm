@@ -1,0 +1,59 @@
+[SETTINGS:AutoGrowTextbox=True,Pagesize=20,MostRecent=10,SupportAjax=False,ModuleSpecific=False]
+[SCRIPT:createcommentformpostbutton:jQuery(document).ready(function() { jQuery('#SubmitCommentLink>input').button(); });]
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%" style="padding-left:5">
+    [COMMENTSVISIBLE]
+    
+    [CommentList=Recent]
+
+    [HasComments]
+    [HasMoreComments]
+    [IsListView]
+    <tr id="[CommentFormClientId]_ViewAllLink">
+        <td><a href="[ViewAllCommentLink]">View all [CommentCount] comments</a></td>
+    </tr>
+    [/IsListView]
+    [/HasMoreComments]
+    <tr>
+        <td id="[CommentFormClientId]_Container">
+            [COMMENTLIST:Recent]
+        </td>
+    </tr>
+    [/HasComments]    
+    [/CommentList]
+
+    [CommentList=All]    
+    <tr>
+        <td>[PAGING:Hotmail]</td>
+    </tr>
+    <tr>
+        <td id="[CommentFormClientId]_Container">
+            [COMMENTLIST:All]
+        </td>
+    </tr>
+    <tr>
+        <td>[PAGING:Hotmail]</td>
+    </tr>    
+    [/CommentList]
+    [USERCANCOMMENT]
+    <tr>
+        <td id="[CommentFormClientId]" class="[COMMENTFORMCLASS]">
+            <div class="CommentFormHead">
+                <!--div class="bubble-out"><div class="bubble-in">Add your <strong>Comment</strong></div></div-->
+                <div class="bubble">
+                    <div class="bubble-top-left"><div class="bubble-top-right"><div class="bubble-top-body"></div></div></div>                
+                    <div class="bubble-content-left"><div class="bubble-content-right">Add your <strong>Comment</strong></div></div>
+                    <div class="bubble-bottom-left"><div class="bubble-bottom-right"><div class="bubble-bottom-body"></div></div></div>
+                </div>
+            </div>
+
+            [COMMENTCONTROL:width=96%:cssclass=NormalTextBox:Height=100][CommentWatermark:Write a comment...]
+            [COMMENTVALIDATOR]
+
+            <div id="SubmitCommentLink" class="CommentFormSubmit">[COMMENTBUTTON:Post]</div>
+        </td>
+    </tr>
+    [/USERCANCOMMENT]
+    
+</table>    
+[/COMMENTSVISIBLE]

@@ -1,0 +1,114 @@
+﻿.dnnForm.NarrowFeedbackForm 
+{
+    min-width:10px;
+}
+.dnnForm.FeedbackForm .dnnFormItem LABEL  
+{
+    width:130px;
+}
+
+.dnnForm.NarrowFeedbackForm .dnnFormItem LABEL  
+{
+    Float:none;
+    Text-Align:left;
+    Width:Auto;
+}
+
+.dnnForm.FeedbackForm .dnnFormItem INPUT, 
+.dnnForm.FeedbackForm .dnnFormItem TEXTAREA, 
+.dnnForm.FeedbackForm .dnnFormItem SELECT 
+{
+    width:60%;
+}
+
+.dnnForm.NarrowFeedbackForm .dnnFormItem INPUT, 
+.dnnForm.NarrowFeedbackForm .dnnFormItem TEXTAREA, 
+.dnnForm.NarrowFeedbackForm .dnnFormItem SELECT 
+{
+    width:80%;
+}
+
+.dnnForm.FeedbackForm .dnnFormItem INPUT[type=checkbox], 
+.dnnForm.NarrowFeedbackForm .dnnFormItem INPUT[type=checkbox]
+{
+    width:auto;
+}
+.dnnForm.FeedbackForm .dnnFormItem SPAN.dnnFormError.dnnFormMessage 
+{
+    left:auto
+}
+
+.FeedbackLists.dnnForm .fbListType .dnnTooltip 
+{
+    width:auto;
+    }
+
+a.dnnFormHelp span {padding-right:1.8em}
+
+div.Feedback_Field span.NormalRed
+{
+    float: right;
+    padding-top: 1.7em;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+div.Feedback_Confirmation 
+{
+    position:relative;
+    float: left;
+    padding: 4px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+table.Feedback_Moderation
+{
+    width: 100%;
+    border: none 0 black;
+}
+
+td.Feedback_Moderation_Grid
+{
+    vertical-align:top;
+    width:100%
+}
+
+table.Feedback_Comments
+{
+    width: 100%;
+    border: none 0 black;
+}
+
+.Feedback_Lists img {
+     border-width:0;
+}
+
+div.FeedbackForm a>img {display:none}
+
+.dnnForm.FeedbackForm .dnnFormItem .RadCaptcha
+{
+    margin-left:146px;
+}
+
+.dnnForm.FeedbackForm .dnnFormItem .RadCaptcha LABEL,
+.dnnForm.NarrowFeedbackForm .dnnFormItem .RadCaptcha LABEL
+{
+    width: inherit;
+    float: left;
+}
+
+.dnnForm.FeedbackSettings .NumberBox {
+    min-width:1px;
+}
+
+.dnnForm.FeedbackLists .Listcolumn {
+    min-width:30px;
+}
+
+.dnnForm .dnnFormItem.Feedback_CharCount {
+    padding-top:0px;
+    line-height:1;
+}

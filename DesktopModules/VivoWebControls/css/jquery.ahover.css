@@ -1,0 +1,45 @@
+
+ul {
+    clear: both;
+    list-style-type: none;
+    position: relative;
+    margin: 1px;
+    padding: 1px;
+	list-style-type:none;
+}
+
+ul li {
+    position: relative;
+    z-index: 1000;
+    padding: 0px;
+    line-height: 1.2;
+    float: left;
+	list-style-type:none;
+}
+
+ul.comics {
+	list-style-type:none;
+}
+
+
+ul.comics li:hover {
+    color: #134;
+	list-style-type:none;
+}
+
+div.ahover {
+    position: absolute;
+	list-style-type:none;
+}
+
+ul.comics div.ahover {
+    background: #ffffff;
+    border: 2px solid #e5ecf5;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+ul.comics li {
+    clear: left;
+    color: #666666;
+}

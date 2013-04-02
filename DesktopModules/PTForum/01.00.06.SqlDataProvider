@@ -1,0 +1,7 @@
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors   
+	ADD [AuthorAboutMe] [ntext] NULL
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors   
+	ADD [AuthorStatus] [int] NOT NULL DEFAULT 0
+GO

@@ -1,0 +1,130 @@
+/*datePicker Styles*/
+#dtpDatePickerDiv 
+{
+	display: none;
+	position: relative;
+	border: 1px solid #777;
+	background: #fff
+}
+#dtpDatePickerDiv TABLE
+{
+	width: 240px;
+}
+#dtpDatePickerDiv a
+{
+	cursor: pointer;
+}
+
+#dtpDatePickerDiv #dtpDatePickerDivNav1
+{
+	background: #ddd
+}
+
+#dtpDatePickerDiv #dtpDatePickerDivNav2
+{
+	background: #ddd
+}
+
+#dtpDatePickerDiv TD.cellTitle
+{
+	font-weight: bold;
+	text-align:center;
+	cursor:default;
+}
+
+#dtpDatePickerDiv TD.cellSelected
+{
+	background: #000;
+	color: #fff
+}
+
+#dtpDatePickerDiv TD.cellToday
+{
+	background: #eee;
+	color: #000
+}
+
+#dtpDatePickerDiv .cellClear
+{
+	padding: 4px 0px 10px 0px;
+}
+
+#dtpDatePickerDiv .link, #dtpDatePickerDiv .linkHover
+{
+	color: #3677B4;
+	cursor: hand;
+	font-size: smaller;
+	padding: 1px 2px 1px 2px;
+}
+
+#dtpDatePickerDiv .linkHover
+{
+	background: #eee;
+}
+
+#dtpDatePickerDiv .linkToday
+{
+	color: #333;
+}
+
+#dtpDatePickerDiv .daysName
+{
+	cursor: default;
+	font-weight: bold;
+	font-size: small smaller;
+}
+
+#dtpDatePickerDiv .daysName TD
+{
+	background: #ddd;
+	color: #777
+}
+
+#dtpDatePickerDiv .monthDay
+{
+}
+
+
+
+
+
+
+
+/*timePicker Styles*/
+#dtpTimePickerDiv
+{
+	border-right: #000 1px solid;
+	border-top: #000 1px solid;
+	z-index: 99;
+	background: #fff;
+	overflow: auto;
+	border-left: #000 1px solid;
+	border-bottom: #000 1px solid;
+	position: absolute;
+	display: none;
+	height: 200px;
+}
+#dtpTimePickerDiv UL
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+#dtpTimePickerDiv LI
+{
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	cursor: pointer;
+	padding-top: 1px;
+}
+#dtpTimePickerDiv LI.selected
+{
+	background: #316ac5;
+	color: #fff;
+}
+
+

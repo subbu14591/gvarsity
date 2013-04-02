@@ -1,0 +1,62 @@
+[SETTINGS:PAGESIZE=10,COLUMN=1,ShowInPopUp=True,PopUpWidth=500,PopUpHeight=400]
+[DisplayMode=Recommended]
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    <tr class="recommend_titles">
+      <td width="25"></td>
+      <td>Subject</td>
+      <td width="20%">From</td>
+      <td width="20%">Date</td>
+    </tr>
+    [RECOMMENDS]
+</table>
+[/DisplayMode]
+[DisplayMode=IRecommend]
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    <tr class="recommend_titles">
+      <td width="25"></td>
+      <td>Subject</td>
+      <td width="20%">From</td>
+      <td width="20%">Date</td>
+    </tr>
+    [RECOMMENDS]
+</table>
+[/DisplayMode]
+[DisplayMode=Recommend]
+[PopUpLinkButton]
+<table width="100%" border="0" cellspacing="1" cellpadding="1" style="float:left;display:none;background-color: #EEE;color: #333;border: 1px solid black;padding: 12px;" id="[ClientId]_PopUp">
+    <tr valign="middle">
+        <td colspan="2"><strong>Recommend this item:</strong></td>    
+    </tr>   
+    <tr>
+        <td>Recomment To:</td>
+        <td align="left">
+            [CONTACTCONTROL:WIDTH=300,Height=75,MinHeight=100,MaxHeight=300,MinWidth=100,MaxWidth=500,IsResizable=True]
+            <br />
+            <cite>Enter multiple contact separated by a comma.</cite>
+        </td>
+    </tr>
+    <tr valign="middle">
+        <td>Article:</td>
+        <td align="left">[Title]</td>
+    </tr>
+    <tr valign="middle">
+        <td>Subject:</td>
+        <td align="left">[Subject:{DisplayName} recommends an article for you]</td>
+    </tr>
+    <tr valign="middle">
+        <td>Content:</td>
+        <td align="left">[Message:{DisplayName} thought you would be interested in this article. <br /> <a href="{Permalink}">{Title}</a>]</td>
+    </tr>
+    <tr valign="middle">
+        <td>Personal Message:</td>
+        <td align="left">
+            [MessageControl::WIDTH=300,Height=100,MinHeight=100,MaxHeight=300,MinWidth=100,MaxWidth=500,Ghost=True, I]
+        </td>
+    </tr>
+    <tr valign="middle">
+        <td>&nbsp;</td>
+        <td><br />[SAVEBUTTON] [CANCELBUTTON]</td>
+    </tr>
+    
+</table>
+[/DisplayMode]

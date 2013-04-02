@@ -1,0 +1,413 @@
+
+/*========================================================+
+| Profile Panes                                           |
++========================================================*/
+
+.leftPaneProfile {
+	display: block;
+	float: left;
+	width: 15%;
+	margin-right: 20px;
+}
+
+.headerPaneProfile {
+	display: block;
+	float: right;
+	width: 100%;
+}
+
+.contentPaneProfile {
+	display: block;
+	float: left;
+	width: 80%;
+}
+
+.rightPaneProfile {
+	display: block;
+	float: right;
+	width: 15%;
+}
+
+.DnnModule-Journal {
+    clear: both;
+}
+
+/*========================================================+
+|  Profile Design Elements                                |
++========================================================*/
+
+.ProfilePanes h1,
+.ProfilePanes h2,
+.ProfilePanes h3 {
+	margin-top: 0;
+	font-size: 37px;
+	font-size: 2.6429em;
+}
+
+.ProfilePanes h2 {
+	font-size: 27px;
+	font-size: 1.9286em;
+}
+
+.ProfilePanes h3 {
+	font-size: 23px;
+	font-size: 1.6429em;
+}
+
+#UserProfileImg {
+}
+
+.UserProfileControls ul, .ProfilePanes .friendProfileActions ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.UserProfileControls li, .ProfilePanes .friendProfileActions li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ProfilePanes .friendProfileActions li {
+	margin-top:20px;
+}
+
+.ProfilePanes .friendProfileActions li a,
+.ProfilePanes ul.dnnActions li a,
+.ProfilePanes a.dnnPrimaryAction,
+.ProfilePanes a.dnnPrimaryAction:link,
+.ProfilePanes a.dnnPrimaryAction:visited,
+.ProfilePanes a.dnnSecondaryAction,
+.ProfilePanes a.dnnSecondaryAction:link,
+.ProfilePanes a.dnnSecondaryAction:visited,
+.ProfilePanes a.ComposeMessage {
+	position: relative;
+	color: #666666 !important;
+	border: 1px solid #CCCCCC;
+	padding: 6px 8px;
+	margin: 8px 0 0;
+	line-height: normal;
+	font-weight: normal;
+	font-size: 11px;
+	background: #fafafa;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0 );
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+	box-shadow:none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.ProfilePanes .friendProfileActions li a:hover,
+.ProfilePanes ul.dnnActions li a:hover,
+.ProfilePanes a.dnnPrimaryAction:hover,
+.ProfilePanes a.dnnSecondaryAction:hover,
+.ProfilePanes a.ComposeMessage:hover {
+	color: #000000;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+/*========================================================+
+|  Tabs Pane Design Elements                              |
++========================================================*/
+
+/* Style One Begin */
+
+.console-none div {
+	float:right;
+}
+
+.tabsPaneProfile .console {
+	padding-top:10px;
+	margin-bottom:10px;
+	width: 100% !important;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+.tabsPaneProfile .console-none div {
+	height: inherit;
+	text-align: center;
+	width: inherit;
+	margin: 0 10px 0 0;
+	padding: 10px;
+}
+
+.tabsPaneProfile h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #999999;
+    letter-spacing:normal;
+}
+
+.tabsPaneProfile div.active h3 {
+	color: #333333;
+}
+
+.tabsPaneProfile h3:hover {
+	color: #000000;
+}
+
+.tabsPaneProfile .console-mouseon {
+	background:none;
+}
+
+/* Style One End */
+
+/* Style Two Begin */
+
+/* .console-none div {
+	float:left;
+}
+
+.tabsPaneProfile .console {
+	padding-top:20px;
+	width: 100%;
+	border-bottom: 3px solid #555555;
+}
+
+.tabsPaneProfile .console-none div {
+	height: inherit;
+	text-align: center;
+	width: inherit;
+	margin: 0 10px 0 0;
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	background: #fafafa;
+	background: -moz-linear-gradient(top, #ffffff 10%, #CCCCCC 60%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ffffff), color-stop(60%, #CCCCCC));
+	background: -webkit-linear-gradient(top, #ffffff 10%, #CCCCCC 60%);
+	background: -o-linear-gradient(top, #ffffff 10%, #CCCCCC 60%);
+	background: -ms-linear-gradient(top, #ffffff 10%, #CCCCCC 60%);
+	background: linear-gradient(to bottom, #ffffff 10%, #CCCCCC 60%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#CCCCCC', GradientType=0 );
+	text-shadow: 1px 1px #FAFAFA;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.tabsPaneProfile .console-none div.active {
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+	border-right: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+	margin-bottom: -1px;
+	background: #555555;
+	background: -moz-linear-gradient(top, #777777 10%, #555555 60%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #777777), color-stop(60%, #555555));
+	background: -webkit-linear-gradient(top, #777777 10%, #555555 60%);
+	background: -o-linear-gradient(top, #777777 10%, #555555 60%);
+	background: -ms-linear-gradient(top, #777777 10%, #555555 60%);
+	background: linear-gradient(to bottom, #777777 10%, #555555 60%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#555555', GradientType=0 );
+}
+
+.tabsPaneProfile h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #555555;
+    letter-spacing:normal;
+}
+
+.tabsPaneProfile div.active h3 {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+}
+
+.tabsPaneProfile h3:hover {
+	color: #000000;
+} */
+
+/* Style Two End */
+
+/*========================================================+
+|  Additional Design Elements                             |
++========================================================*/
+
+#mdMemberList > li {
+	max-width: 265px;
+}
+
+.leftPaneProfile .DnnModule #mdMemberList {
+}
+
+.leftPaneProfile #mdMemberList > li {
+    background: none;
+    border: none;
+    box-shadow: none;
+    float: none;
+    height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: inherit;
+    z-index: 1;
+}
+
+.dnnForm.dnnGroupDirectory {
+	padding:0 0 20px 0;
+}
+
+.mdMemberDetails .mdHoverActions li p {
+	margin:0;
+}
+
+.dgdAvatar { width:16%;}
+
+.dgdAvatar a {
+	max-height:inherit;
+}
+
+.ModViewProfileC .pAddress, .ModViewProfileC .pContact {
+	border: 1px solid #CCCCCC;
+	margin: 0 10px 22px 10px;
+	padding: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFFFFF;
+	border-color: #E6E6E6;
+	float:left;
+	width:40%;
+}
+
+.join-group-icn a, a.createGroup:link, a.createGroup:visited, #LeaveGroup-6, #JoinGroup-6 {
+	position: relative;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	padding: 6px 8px;
+	margin: 0;
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 11px;
+	background: #fafafa; 
+	background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0 ); 
+	text-shadow: 1px 1px #FFFFFF;
+	text-align: center;
+}
+
+.join-group-icn a:hover, a.createGroup:hover, #LeaveGroup-6:hover, #JoinGroup-6:hover {
+	color: #000000;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	background: #fafafa;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%); 
+	background: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%); 
+	background: -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0 );
+}
+
+.dgdGroupQuickInfo {
+	width:80%;
+}
+
+.journalrow div.journalitem ul.jcmt, .journalrow div.journalitem .likes {
+    width: 98%;
+}
+
+/*========================================================+
+|  Responsive Styles                                      |
++========================================================*/
+
+@media only screen and (max-width: 767px) {
+	
+.dnnForm {
+	min-width:inherit;
+}
+
+.tabsPaneProfile .console {
+	border: none;
+	padding:0 0 20px 0;
+}
+
+.dnnMemberDirectory {
+	width: inherit;
+}
+
+.tabsPaneProfile .console-none div {
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.tabsPaneProfile .console-none div.active {
+	margin-bottom: 0px;
+}
+
+.mdSearch {
+	/*display: none;*/
+}
+
+.dnnMemberDirectory .searchWrapper {
+	width: inherit;
+}
+
+.dnnMemberDirectory .mdSearchBar input[type="text"] {
+	width: 70%;
+}
+
+.dnnFormPopup {
+	width:auto !important;
+}
+
+.ModViewProfileC .pAddress, .ModViewProfileC .pContact {
+	width:90%;
+	margin:0 0 20px 0;
+}
+
+.dgdGroupQuickInfo {
+	width:100%;
+	clear:left;
+}
+
+.dgdAvatar { min-width:30%;}
+
+/*========================================================+
+|  Responsive Panes                                       |
++========================================================*/
+
+.leftPaneProfile,
+.headerPaneProfile,
+.contentPaneProfile,
+.rightPaneProfile {
+	display: block;
+	float: none;
+	width: 100%;
+	margin: 0px;
+}
+}

@@ -1,0 +1,217 @@
+#Body { background: #000; }
+
+.topBar { background: #000; min-height: 8px; margin: 0; padding: 0; }
+
+.headerDiv { background: url(graphics/charcool_hdr_bg.gif) top repeat-x; position: relative; border-bottom: #222 1px solid; z-index: 1000; }
+
+.header { background: url(graphics/charcool_hdr_center_bg.gif) top no-repeat; display: block; min-width:940px; padding: 0 20px; position: relative; }
+
+div.language-object span.Language img { width: 20px; margin: 5px 0px 5px 0; }
+
+div.language-object span.Language.selected img { border: 2px solid #555; }
+
+.dnnLogo { float:left; }
+
+.bannerPane { background: #FFF; border-top: #EAEAEA 1px solid; border-bottom: #D9D9D9 1px solid; z-index: 0; }
+
+.pageTitleDiv { background: #EAEAEA; border-bottom: #FFF 1px solid; }
+
+.Banner { position: relative; }
+
+.Banner .action-buttons { position: absolute; bottom: 0px; right: 0px; }
+
+.pageTitlePane .Normal,
+.pageTitlePane .normal { line-height: 1.2em; margin: 0; padding: 0; font-size: 1.7em; color: #666; white-space: normal; text-shadow: 0.03em 0.03em #FFF; }
+
+.pageTitlePane p { color: #666; }
+
+.pageTitleWidth { min-width:960px; display: block; margin: 0 auto; padding: 20px 0; }
+
+.pageName { position: absolute; right: 30px; bottom: -1px; background: url(graphics/charcool_title2_bg.gif) top left; display: block; height: 35px; }
+
+.pageName span { color: #5D5D5D; font-size: 1.4em; text-transform: uppercase; letter-spacing: -.05em; text-shadow: 0.03em 0.03em #FFF; background: url(graphics/charcool_title2_bg_cap.gif) top right no-repeat; line-height: 35px; padding: 0px 18px 0px 18px; display: block; }
+
+.contentShadow1 { background: #CFCFCF; height: 1px; position: relative; }
+
+.contentShadow2 { background: #E0E0E0; height: 1px; position: relative; }
+
+.contentShadow3 { background: #ECECEC; height: 1px; position: relative; }
+
+.pageContent { background:#FAFAFA; padding-bottom:10px; }
+
+.TopPane { clear: both; margin-bottom: 0px; }
+
+.ContentPane { margin-bottom: 0; }
+
+.pageWidth { display: block; min-width:940px; padding: 0 2%; }
+
+.breadcrumbdiv { color:#BBB; font-size:.8em; padding:3px 0 10px 0; }
+
+.breadcrumbdiv a { color: #BBB !important; }
+
+.breadcrumb-pretext { background: url(graphics/bg_home.gif) center bottom no-repeat; height: 12px; width: 12px; margin-right: 2px; text-indent: -500px; overflow: hidden; display: block; }
+
+.subPageLeftDiv { background-image: url(graphics/charcool_subpage_top.gif), url(graphics/charcool_subpage_bottom.gif), url(graphics/charcool_subpage_bg.gif); background-position: right top, right bottom, right; background-repeat: no-repeat, no-repeat, repeat-y; }
+
+.preFooterDiv { height: 10px; border-bottom: 1px solid #131313; background: #000; }
+
+.Search { padding: 0 20px 0 0; }
+
+#dnn_dnnSEARCH_txtSearch.NormalTextBox { background: none; background-color: #1F1F1F; border-top: #0C0C0C 1px solid; border-left: #0C0C0C 1px solid; border-right: #333 1px solid; border-bottom: #333 1px solid; color: #FFF; }
+
+.charcoolFooterContentDiv { background: #111 url(graphics/charcool_footer_bg.gif) repeat; border-bottom: 1px solid #2A2A2A; padding: 10px 0; }
+
+.charcoolFooterContent { display: block; position: relative; padding: 0 auto; min-width:960px; }
+
+.FooterPane .Normal,
+.FooterPane p,
+.FooterPane h1,
+.FooterPane h2,
+.FooterPane h3,
+.FooterPane h4,
+.FooterPane h5,
+.FooterPane h6 { color: #CCC; }
+
+/*-- Styles for footer lists.         --*/
+.FooterPane ul { width: 158px; display: inline; float: left; padding: 0; margin: 0px 40px 20px 0; font-size: 1em; }
+
+.FooterPane li { list-style: none; list-style-image: none; list-style-position: outside; color: #CCC; }
+
+.FooterPane li.listHeader { font-size: 1.2em; border-bottom: #666 1px solid; margin: 0 0 3px 0; background: none; color: #FFF; }
+
+.FooterPane li.listHeader a { padding: 0; color: #FFF; }
+
+.FooterPane li.additionalHeader { font-size: 1.2em; border-bottom: #666 1px solid; margin: 18px 0 3px 0; color: #FFF; }
+
+.FooterPane li a { text-decoration: none; color: #999; border-bottom: #1B1B1B dotted 1px; display: block; padding: 0px 0 5px 0; }
+
+.FooterPane li a:hover { color: #CCC; text-decoration: underline; }
+
+.charcoolFooterDiv { background: #000; padding-top: 5px; }
+
+.charcoolFooter { display: block; min-width: 960px; padding: 0 20px; }
+
+.charcoolFooter ul { list-style: none; margin: 0; padding: 0; }
+
+.charcoolFooter li { list-style: none; display: block; float: left; text-transform: uppercase; font-size: 0.9em; }
+
+.charcoolFooter { font-size: .8em; line-height: 1.8em; text-decoration: none; color: #999; }
+
+.charcoolFooter,
+.charcoolFooter a,
+.charcoolFooter #dnn_dnnUSER_cmdRegister,
+.charcoolFooter #dnn_dnnUSER_registerLink,
+.charcoolFooter #dnn_dnnLOGIN_cmdLogin { color: #999; }
+
+.copyrightdiv { float:left; }
+
+.designBy { clear: both; margin-bottom: 0; padding-bottom: 20px; color: #666; }
+
+.designBy a { color: #666; }
+
+/*========================================================+
+|  Panes in the Page                                      |
++========================================================*/
+
+.subPageLeftDiv { float: left; min-width: 280px; width:30%; display: block; padding-right:1%; margin-right:1%; }
+
+.subLeftPane { }
+
+.subPageContent { clear:both; }
+
+.subPageContentDiv { float: left; min-width: 635px; width:68%; display: block; }
+
+.subTopPane { }
+
+.subMiddleLeftPane { float: left; min-width:310px; width: 49%; display: block; }
+
+.subMiddleRightPane { float: right; min-width:310px; width: 49%; display: block; }
+
+.subBottomPane { clear:both; }
+
+.ContentPaneDiv { clear: both; }
+
+.TopLeftPane { min-width: 460px; width: 49%; }
+
+.TopRightPane { min-width: 460px; width: 49%; }
+
+.LeftPane { min-width: 280px; width:30%; }
+
+.ContentPane2 { min-width: 640px; width:68%; }
+
+.ContentPane3 { min-width: 640px; width:68%; }
+
+.RightPane { min-width: 280px; width:30%; }
+
+.MiddleLeftPane { min-width: 300px; width:32%; margin-right:2%; }
+
+.MiddlePane { min-width: 300px; width:32%; }
+
+.MiddleRightPane { min-width: 300px; width:32%; }
+
+.BottomColumn1 { min-width: 220px; width:23.5%; margin-right:2%; }
+
+.BottomColumn2 { min-width: 220px; width:23.5%; margin-right:2%; }
+
+.BottomColumn3 { min-width: 220px; width:23.5%; margin-right:2%; }
+
+.BottomColumn4 { min-width: 220px; width:23.5%; }
+
+.FooterPane { min-width: 750px; width:82%; position:relative; }
+
+/*========================================================+
+|  Navigation Menu Styles                                 |
++========================================================*/
+
+.menu { position:absolute; right:20px; top:1px; float:none; width:auto; text-transform:uppercase; z-index:1000; }
+
+.SelectedTab { font-size:1em !important; font-family:Verdana, Geneva, sans-serif !important; }
+
+/* Set bottom margin and color of menu that does not contain menu items. */
+#nav ul { padding:0px; margin:0px; list-style:none; z-index:900; width:auto; float:none; position:relative; }
+
+/* Set line height. */  
+#nav li { display: inline; position:relative; float:left; line-height:12px; list-style:none; padding:0px; margin-bottom:0px; background-color:transparent; z-index:800; }
+
+/* Font for top menu items. */  
+#nav a { font-family:Verdana, Geneva, sans-serif; font-weight:normal; font-size:.9em; display:block; margin:0; text-decoration:none; text-align:center; padding:0 10px 0 10px; margin:0px; color:#AAA; background:none; line-height:26px; z-index:700 }
+
+/* Second-level list container. */  
+#nav li ul { position:absolute; left:-100px; width:167px; border:none; z-index:600; padding-top:10px; background:url(graphics/charcool_menu_arrow.gif) top right no-repeat; display:none; -webkit-box-shadow: none; box-shadow: none;}
+
+#nav li li ul { position:absolute; left:-177px; top:0px; width:167px; border:none; z-index:500; padding-top:1px; padding-right:10px; background:url(graphics/charcool_menu_sub_arrow.gif) top right no-repeat; display:none; }
+
+#nav li li { z-index:1000 }
+
+/* Second-level menu items. */  
+#nav li li a { width:150px; font-size:11px; text-align:left; background:#262626 none; color:#CCC; border-left:#3C3C3C 1px solid; border-bottom:#1C1C1C 1px solid; border-right:#1C1C1C 1px solid; border-top:none; line-height:16px; padding:6px 6px 6px 10px; text-transform:none; font-family:Verdana, Geneva, sans-serif; font-weight:normal; z-index:400 }
+
+#nav li li li a { border-right:none; }
+
+/* Hover style for unselected menu items. */  
+#nav li a:hover { background:#3A3A3A none; color:#FFF; }
+
+/* Top-level selected menu items. */  
+#nav li.SelectedTab a { }
+
+/* Second-level selected menu items. */  
+#nav li li.SelectedTab a { background:#262626 none; color:#FFF; }
+
+/* Third-level selected menu items. */  
+#nav li li li.SelectedTab a { background: #262626 none; color:#FFF; }
+
+/* Hover style for selected menu items. */  
+#nav li.SelectedTab a:hover { background:#3A3A3A none; color:#FFF; }
+
+/* Font color for disabled tabs. */  
+#nav .DisabledTab { color:#CCC; }
+
+/* Set where the first drop-down hover menu starts along the y axis */  
+#nav li:hover ul,
+#nav li.iehover ul { top: 26px; left:-100px; }
+
+/* Set where the first drop-down hover menu starts along the x axis */																																								
+#nav li li:hover ul,
+#nav li li.iehover ul,
+#nav li li li:hover ul,
+#nav li li li.iehover ul { top:0px; left:-177px; }

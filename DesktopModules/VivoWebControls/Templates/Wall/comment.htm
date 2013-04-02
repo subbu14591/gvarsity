@@ -1,0 +1,61 @@
+[SETTINGS:AutoGrowTextbox=True,Pagesize=20,MostRecent=3,SupportAjax=True]
+[COMMENTSVISIBLE]
+[JQUERYUI]
+[JQUERYDIALOG]
+<table class="CommentWrapper" border="0" cellpadding="0" cellspacing="2" width="100%">
+    [COMMENTSVISIBLE]
+    
+    [CommentList=Recent]
+
+    [HasMoreComments]
+    <tr>
+        <td><a href="[ViewAllCommentLink]">View all [CommentCount] comments</a></td>
+    </tr>
+    [/HasMoreComments]
+    <tr>
+        <td idx="Item_[ITEMID]_CommentList">
+            [HasComments]
+            [COMMENTLIST:Recent]
+            [/HasComments]
+        </td>
+    </tr>    
+    [/CommentList]
+    
+    [CommentList=All]
+    
+    <tr>
+        <td>All Comments</td>
+    </tr>    
+    
+    <tr>
+        <td>[PAGING]</td>
+    </tr>
+    <tr>
+        <td idx="Item_[ITEMID]_CommentList">
+            [COMMENTLIST]
+        </td>
+    </tr>
+    <tr>
+        <td>[PAGING]</td>
+    </tr>
+    [/CommentList]
+    
+    [/COMMENTSVISIBLE]
+    [USERCANCOMMENT]
+    <tr>
+        <td>
+            <table idx="[COMMENTFORMCLIENTID]" class="[CommentFormClass]" border="0" cellpadding="0" cellspacing="0">
+                <tr valign="top">
+                    <td>[COMMENTCONTROL][CommentWatermark:Write a comment...]</td>
+                    <td style="width:2px;"></td>
+                    <td>[COMMENTBUTTON:Comment][THANKYOU][PROGRESS:Posting Comment]</td>
+                </tr>
+            </table>
+            <div idx="[COMMENTFORMCLIENTID]_Edit" title="Edit Comment" style="display:none;">
+                <textarea id="[COMMENTFORMCLIENTID]_EditControl" style="width: 410px; height: 100px;resize: vertical; text-align: left;"></textarea>
+            </div>
+        </td>
+    </tr>
+    [/USERCANCOMMENT]
+</table>
+[/COMMENTSVISIBLE]

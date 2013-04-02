@@ -1,0 +1,38 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Downloads Table **/
+ALTER TABLE {databaseOwner}[{objectQualifier}DownloadsSettings] DROP CONSTRAINT [PK_DownloadsSettings]  
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}DownloadsSettings] DROP CONSTRAINT [FK_DownloadsSettings_Modules] 
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}DownloadsSettings]
+GO
+
+
+/** Drop Stored Procedures **/
+DROP PROCEDURE {databaseOwner}{objectQualifier}AddDownloadsSettings
+GO
+
+DROP PROCEDURE {databaseOwner}{objectQualifier}DeleteDownloadsSettings
+GO
+
+DROP PROCEDURE {databaseOwner}{objectQualifier}GetDownloadsSettings
+GO
+
+DROP PROCEDURE {databaseOwner}{objectQualifier}UpdateDownloadsSettings
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

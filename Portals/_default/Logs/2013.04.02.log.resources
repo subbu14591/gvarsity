@@ -1,0 +1,264 @@
+2013-04-02 00:34:07,279 [RD00155D38034D][Thread:66][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)
+2013-04-02 05:27:48,170 [RD00155D38034D][Thread:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)
+2013-04-02 07:37:16,429 [RD00155D38034D][Thread:22][ERROR] DotNetNuke.Entities.Users.UserOnlineController - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UsersOnline_Users". The conflict occurred in database "genikulam_db", table "dbo.Users", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteNonQuery(String connectionString, CommandType type, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Entities.Users.UserOnlineController.UpdateUsersOnline()
+ClientConnectionId:fee9d175-f7fc-45c3-8e64-d81efe7ca818
+2013-04-02 07:37:16,554 [RD00155D38034D][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)
+2013-04-02 07:38:31,202 [RD00155D38034D][Thread:20][ERROR] DotNetNuke.Entities.Users.UserOnlineController - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UsersOnline_Users". The conflict occurred in database "genikulam_db", table "dbo.Users", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteNonQuery(String connectionString, CommandType type, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Entities.Users.UserOnlineController.UpdateUsersOnline()
+ClientConnectionId:fee9d175-f7fc-45c3-8e64-d81efe7ca818
+2013-04-02 07:39:27,993 [RD00155D38034D][Thread:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-02 07:39:28,056 [RD00155D38034D][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.HttpException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2013-04-02 07:39:36,446 [RD00155D38034D][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-02 07:39:36,446 [RD00155D38034D][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.HttpException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2013-04-02 07:39:50,210 [RD00155D38034D][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-02 07:39:50,226 [RD00155D38034D][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.HttpException: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 123.63.30.165
+	Port: 56389
+	Referer: http://genikulam.azurewebsites.net/login.aspx?ReturnUrl=%2fDefault.aspx
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22
+	ViewState: mFbtHcOR+gHATLWNYvAs2xuxAUQwP3/Pf79vAJP++5TEIlyiPtz7HIPkyfyAIoh5/FrxwGUfbStnvznTgyteIWDOxK+wH9vMGOMBkhdhU8u7a/5INDnDJKrnVFs0LVoUzrCY8Om1S4kQCmVdEXa71GpoBNA4YU4K3REPH0A2uPbg62DG2lZWVUS5juRLr9Z+MaE0dSGEPkTBSCSgjUkvukmo/skihxVSl/4axRmXOpLiyo4+qcXvsnPwuxENnGgWxzQsNP3zAr1fwUqRmceKRye+TbVeKYD6hhlWEYP2HwxOqsXMXgb0p/Qhw8ccpHpyxGCxUPSPQn8PQX/8SEX3JseQeTfCs97x6El7FkEm4Flyg38ahN8+w+xfKxTNnw6a/38aaCEf2g1CTRNBydf0CThRvqNStY48A0OMubpQ9XuBPrg/CQW1mnDuD4fKuncMasE/257NP6gagePVYvpn15ncVnkRL0JtAVArizJwycGgu70xCb4GqaBRcZHI8+KBkClFvwpcQkFrtlezj+7hC5634vfOKDP3+skQyfPqfKB1054efHxCJLforpwshC7VshTWeu02nzhMM1mgtvkNgfQqtE8u/x0q/VQWT3A6c3FUpQX8ybrZi8FG5P7Utgvq8/JQ7YkAEzYVd2s/NItEUEN+rREQzjIv/ymZeQyH6JVyc75eHGXZ6j5dFoz5ao9AVX9rjhpBqxiHsw1oMhI5hyP13yKwOX0b4...
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter2.Deserialize(String serializedState, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2013-04-02 07:41:02,109 [RD00155D38034D][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.UI.Modules.ProfileModuleUserControlBase.OnInit(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.ViewProfile.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at DotNetNuke.UI.Modules.ModuleHost.InjectModuleContent(Control content)
+   at DotNetNuke.UI.Modules.ModuleHost.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at DotNetNuke.UI.Modules.ModuleHost.get_ModuleControl()
+   at DotNetNuke.UI.Containers.Container.get_ModuleControl()
+   at DotNetNuke.UI.Containers.Container.ProcessModule()
+   at DotNetNuke.UI.Skins.Pane.InjectModule(ModuleInfo module)
+2013-04-02 07:41:02,328 [RD00155D38034D][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.ModuleLoadException: Unhandled Error Adding Module to leftPane ---> System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at DotNetNuke.UI.Modules.ProfileModuleUserControlBase.OnInit(EventArgs e)
+   at DotNetNuke.Modules.Admin.Users.ViewProfile.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at DotNetNuke.UI.Modules.ModuleHost.InjectModuleContent(Control content)
+   at DotNetNuke.UI.Modules.ModuleHost.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at DotNetNuke.UI.Modules.ModuleHost.get_ModuleControl()
+   at DotNetNuke.UI.Containers.Container.get_ModuleControl()
+   at DotNetNuke.UI.Containers.Container.ProcessModule()
+   at DotNetNuke.UI.Skins.Pane.InjectModule(ModuleInfo module)
+   --- End of inner exception stack trace ---
+   at DotNetNuke.UI.Skins.Pane.InjectModule(ModuleInfo module)
+   at DotNetNuke.UI.Skins.Skin.InjectModule(Pane pane, ModuleInfo module)
+2013-04-02 07:41:52,979 [RD00155D38034D][Thread:23][ERROR] DotNetNuke.Entities.Users.UserOnlineController - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UsersOnline_Users". The conflict occurred in database "genikulam_db", table "dbo.Users", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteNonQuery(String connectionString, CommandType type, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Entities.Users.UserOnlineController.UpdateUsersOnline()
+ClientConnectionId:fee9d175-f7fc-45c3-8e64-d81efe7ca818
+2013-04-02 08:08:43,605 [RD00155D38034D][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)
+2013-04-02 08:24:05,752 [RD00155D38034D][Thread:35][ERROR] DotNetNuke.Entities.Users.UserOnlineController - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UsersOnline_Users". The conflict occurred in database "genikulam_db", table "dbo.Users", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteNonQuery(String connectionString, CommandType type, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Entities.Users.UserOnlineController.UpdateUsersOnline()
+ClientConnectionId:9f418a24-a7e6-47ac-8c4e-55eff1bd7a86
+2013-04-02 08:34:36,801 [RD00155D38034D][Thread:20][ERROR] DotNetNuke.Entities.Users.UserOnlineController - System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UsersOnline_Users". The conflict occurred in database "genikulam_db", table "dbo.Users", column 'UserID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at PetaPoco.Database.Execute(String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteNonQuery(String connectionString, CommandType type, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteNonQuery(String procedureName, Object[] commandParameters)
+   at DotNetNuke.Data.DataProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Security.Membership.AspNetMembershipProvider.UpdateUsersOnline(Hashtable userList)
+   at DotNetNuke.Entities.Users.UserOnlineController.UpdateUsersOnline()
+ClientConnectionId:6f50e31d-aeb9-454b-ae68-e9c392cd5f2b
+2013-04-02 08:45:23,006 [RD00155D38034D][Thread:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)
+2013-04-02 14:32:47,962 [SubbuDappa][Thread:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.IndexOutOfRangeException: TotalRecords
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at DotNetNuke.Modules.Blog.Components.Entities.EntryInfo.Fill(IDataReader dr)
+   at DotNetNuke.Common.Utilities.CBO.FillObjectFromReader(Object objObject, IDataReader dr)

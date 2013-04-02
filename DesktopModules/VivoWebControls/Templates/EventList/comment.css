@@ -1,0 +1,92 @@
+/* Article Comments */	
+.Comment
+{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.CommentLeftPane
+{
+	float: left;
+	width: 60px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.CommentRightPane
+{
+	margin-left: 60px;
+	padding: 0;
+}
+
+
+.CommentUserAvatar { vertical-align: top; }
+
+.CommentSeparator  {
+	padding: 0;
+	height: 1px;
+	font-size: 1px; 
+	border-top: dotted 1px #ccc; 
+	display: block;
+	width: 100%;
+}
+
+.CommentContent { padding: 4px 0; }
+.CommentLinks { padding: 4px 0; }
+.CommentLinks a, .CommentLinks a:link,.CommentLinks a:visited, .CommentLinks a:active, .CommentLinks a:hover {font-size:100%; font-weight:normal; text-decoration:none;}
+.CommentLinks a:hover{color: #F60;}
+
+.CommentUserLink:link,.CommentUserLink:visited {font-weight:bold;}
+
+.CommentFormHead { font-size: 100%; padding: 12px 0; }
+
+
+.bubble { width: auto; display:inline-block }
+
+.bubble .bubble-top-left {
+	background:url("images/bubble_top_left.png") no-repeat top left;
+}
+	
+.bubble .bubble-top-body
+{
+	background: url("images/bubble_top.png") repeat-x top left;
+	height: 5px;
+	margin: 0 5px 0 40px;
+}
+.bubble .bubble-top-right {
+	background:url("images/bubble_top_right.png") no-repeat top right;
+	color: #000;
+}
+
+
+.bubble .bubble-content-left {
+	background:url("images/bubble_left.png") repeat-y top left;
+}
+.bubble .bubble-content-right {
+	background:url("images/bubble_right.png") repeat-y top right;
+	padding: 2px 8px 6px 8px; 
+}
+
+
+.bubble .bubble-bottom-left {
+	background:url("images/bubble_bottom_left.png") no-repeat top left;
+}
+	
+.bubble .bubble-bottom-body
+{
+	background: url("images/bubble_bottom.png") repeat-x top left;
+	height: 17px;
+	margin: 0 5px 0 40px;
+}
+.bubble .bubble-bottom-right {
+	background:url("images/bubble_bottom_right.png") no-repeat top right;
+}
+
+
+.CommentFormSubmit { padding: 12px 0; }
+
+.CommentFormSubmit .CommentButton,
+.CommentFormSubmit .CommentButton:link,
+.CommentFormSubmit .CommentButton:visited,
+.CommentFormSubmit .CommentButton:active { outline: 0; margin:0 4px 0 0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }

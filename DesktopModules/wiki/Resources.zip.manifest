@@ -1,0 +1,144 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>04.05.02.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>Administration.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Edit.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>License.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>module.css</name>
+    </file>
+    <file>
+      <path />
+      <name>PageRatings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>RatingBar.aspx</name>
+    </file>
+    <file>
+      <path />
+      <name>Ratings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>RecentChanges.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>ReleaseNotes.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>Router.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Search.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Start.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>TopicHistory.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Administration.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>edit.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Router.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SharedResources.resx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>Index.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>WikiButton.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>WikiMenu.ascx</name>
+    </file>
+    <file>
+      <path>Controls/App_LocalResources/</path>
+      <name>Index.ascx.resx</name>
+    </file>
+    <file>
+      <path>Controls/App_LocalResources/</path>
+      <name>WikiButton.ascx.resx</name>
+    </file>
+    <file>
+      <path>Controls/App_LocalResources/</path>
+      <name>WikiMenu.ascx.resx</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>bcImage.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>HideNav.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>Home.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>Index.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>page.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>RecentChanges.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>Search.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>ShowNav.gif</name>
+    </file>
+    <file>
+      <path>packages/package/4.5.0/</path>
+      <name>Wiki_04.05.00_ReleaseNotes.txt</name>
+    </file>
+    <file>
+      <path>packages/package/4.5.0/</path>
+      <name>Wiki_04.05.00_TestCases.txt</name>
+    </file>
+    <file>
+      <path>Providers/DataProviders/SqlDataProvider/</path>
+      <name>FullInstallSQL.txt</name>
+    </file>
+  </files>
+</dotnetnuke>

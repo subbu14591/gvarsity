@@ -1,0 +1,7 @@
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumForums   
+	ADD [ForumModeratorRole] [int] NOT NULL DEFAULT -1
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumAuthors   
+	ADD [AuthorAdminText] [ntext] NULL
+GO

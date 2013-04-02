@@ -1,0 +1,63 @@
+.LatLongControlWrapper 
+{
+    width: 80%;
+}
+
+.LatLongControlWrapper input
+{
+    font-size: 16px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+
+.LatLongLinkWrapper
+{
+    width: 10%;
+}
+
+.LatLongLinkWrapper .CommandButton { padding: 0 0 0 6px; }
+
+
+.maplocation_border {
+	border:1px solid #979797;	
+}
+
+.maplocation_latlong {
+	border-bottom: solid 0 #979797;
+}
+
+.LatLngControl { width: 100px }
+
+.gmls-app {
+border:0px solid #979797;
+font-family:arial,sans-serif;
+font-size:12px;
+width:375px;
+text-align:left;
+vertical-align:middle;
+}
+
+input.gsc-input {
+border:1px solid #BCCDF0;
+padding-left:2px;
+width:275px;
+text-align:left;
+vertical-align:middle;
+}
+
+.gmls-search-form-withclear {
+background-position:left center;
+background-repeat:no-repeat;
+height:23px;
+padding-left:10px;
+width:375px;
+}
+
+.gmls-search-form {
+background-color: transparent;
+margin-bottom:0;
+padding:2px;
+width:375px;
+}

@@ -1,0 +1,235 @@
+
+/*=======================================================+
+|  Universal                                             |
++=======================================================*/
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	background: white;
+	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: #222222;
+	height: 100%;
+}
+
+.clearfix {
+ *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* Control panel from small screens on DNN 6 */
+
+#controlPanelDiv .dnnControlPanel {
+	width: 90% !important;
+	max-width: 940px !important;
+	min-width: 0px !important;
+}
+
+ul.dnnAdminTabNav {
+	height: inherit;
+}
+
+ul.dnnAdminTabNav li.ui-tabs-selected a {
+	margin-bottom: -1px;
+}
+
+/*========================================================+
+|  DNN Form overrides                                     |
++========================================================*/
+
+.dnnPrimaryAction:hover, input[type="submit"]:hover, a.dnnPrimaryAction:hover {
+	text-decoration:none;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+.dnnSecondaryAction:hover,
+a.dnnSecondaryAction:hover,
+ul.dnnAdminTabNav li a:hover {
+	text-decoration: none;
+}
+
+.dnnPrimaryAction,
+input[type="submit"],
+a.dnnPrimaryAction {
+	color: #FFFFFF !important;
+}
+
+.dnnLoginService input[type="text"], .dnnLoginService input[type="password"] {
+	margin-top:4px;
+}
+
+.LoginPanel {
+	width: 100%;
+	padding-right: 0px;
+	float: left;
+}
+
+.dnnForm .dnnFormItem {
+	clear: both;
+	display: block;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+.dnnFormItem > label.dnnFormLabel,
+.dnnFormItem > .dnnLabel {
+	display: block;
+	text-align: left;
+	float:none;
+	width:inherit;
+}
+
+div.dnnRegistrationForm {
+    min-width: 0px;
+    width: 100%;
+}
+
+div.dnnRegistrationForm .dnnForm {
+	width:100%;
+}
+
+input[type="text"],
+select, textarea, 
+input[type="email"], 
+input[type="search"], 
+input[type="password"] {
+	margin-top:4px;
+}
+
+a.dnnFormHelp {
+	position:relative;
+	margin-left:5px;
+}
+
+.dnnTooltip {
+    display: block;
+    margin-right: 18px;
+    position: relative !important;
+    width: 32.075%;
+	left:0px;
+}
+
+.dnnLabel {
+	padding-right:0px;
+}
+
+/*========================================================+
+|  Text Styles                                            |
++========================================================*/
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: #2BA6CB;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.1;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	font-weight: normal;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+	font-size: 60%;
+	color: #888;
+	line-height: 0;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-size: 37px;
+}
+
+h3 {
+	font-size: 27px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+/*========================================================+
+|  Responsive Styles                                      |
++========================================================*/
+
+@media only screen and (max-width: 767px) {
+	
+.dnnLabel {
+	margin:0px;
+	padding-right:0px;
+}
+
+.dnnLoginService input[type="text"], .dnnLoginService input[type="password"] {
+    width:98%;
+	padding:5px;
+	font-size:18px;
+	min-width:0px;
+}
+
+.dnnFormItem input[type="text"], 
+.dnnFormItem input[type="password"], 
+.dnnFormItem input[type="email"], 
+.dnnFormItem input[type="tel"], 
+.dnnFormItem select, 
+.dnnFormItem textarea {
+    width: 95%;
+	font-size:18px;
+}
+
+}

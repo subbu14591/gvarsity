@@ -1,0 +1,9 @@
+.subPageLeftDiv { background-image: none; border-right:1px solid #DDD; }
+
+.subPageLeftDiv { min-width: 275px; width:29.5%; }
+
+.subPageContentDiv { min-width: 620px; }
+
+.subMiddleLeftPane { min-width:305px; }
+
+.subMiddleRightPane { min-width:305px; }

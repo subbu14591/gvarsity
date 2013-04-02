@@ -1,0 +1,21 @@
+.WallItemWrapper { margin-bottom: 10px; }
+
+.SubmitButtonWrapper { padding-bottom: 10px; }
+
+.PostControlWrapper TEXTAREA { resize:vertical; }
+
+.PostLink, .PostButton  { outline: 0; margin:0 4px 0 0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
+.PostLink .ui-icon, .PostButton .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+	
+a.PostLink, a.PostButton { float:left; }
+
+.WallProfile { width: 70px; }
+.WallContent { padding: 4px 0 0 0; margin: 0; }
+
+.WallContent textarea.elastic { width: 290px; resize: vertical; text-align: left }
+
+.WallContentMessage { padding: 0; margin: 0;  text-align: left; font-size: 100%; }
+
+a.WallContentUserInfo { padding: 0; margin: 0;  text-align: left; font-weight: bold; }
+
+.WallContentInfo, .WallContentInfo a { font-size: 90%; color: #666; }

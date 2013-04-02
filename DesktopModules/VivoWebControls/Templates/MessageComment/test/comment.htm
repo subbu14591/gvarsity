@@ -1,0 +1,62 @@
+
+[SETTINGS:AutoGrowTextbox=True,Pagesize=10,MostRecent=2]
+<table border="0" cellpadding="0" cellspacing="2" width="100%">
+    [COMMENTSVISIBLE]
+    
+    [CommentList=Recent]
+
+    [HasComments]
+    [HasMoreComments]
+    <tr>
+        <td><a href="[ViewAllCommentLink]">View all [CommentCount] comments</a></td>
+    </tr>
+    [/HasMoreComments]
+    <tr>
+        <td>
+            [COMMENTLIST:Recent]
+        </td>
+    </tr>
+    [/HasComments]
+    [/CommentList]
+    
+    [CommentList=All]
+    
+    <tr>
+        <td>All</td>
+    </tr>
+    
+    
+    <tr>
+        <td>[PAGING]</td>
+    </tr>
+    <tr>
+        <td>
+            [COMMENTLIST]
+        </td>
+    </tr>
+    <tr>
+        <td>[PAGING]</td>
+    </tr>
+    </table>
+    [/CommentList]
+    
+    [/COMMENTSVISIBLE]
+[USERCANCOMMENT]
+<script>
+function toggle(id) {
+  var el = document.getElementById(id);
+  el.className = (el.className == 'hide' ? 'show' : 'hide');
+}
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p><a href="#" onclick="toggle('[CommentFormClientId]');return false;">Comment</a></p>
+<div id="[CommentFormClientId]_Container">
+<ul class="hide" id="[CommentFormClientId]">
+  <li class="Commentsli"><div>[COMMENTCONTROL][CommentWatermark:Write a comment...]</div></li>
+  <li class="Commentsli"><div>[COMMENTBUTTON:Submit][THANKYOU][PROGRESS:Posting Comment]</div></li>
+</ul>
+</div></td>
+  </tr>
+</table>
+[/USERCANCOMMENT]

@@ -1,0 +1,28 @@
+[SETTINGS:Pagesize=5,SupportAjax=False,EXPANDURL=True,EXPANDURLTarget=_blank,SHORTURLOPTION=10-50]
+[SCRIPT:WallDocReady::jQuery(document).ready(function() { jQuery('.SubmitButtonWrapper .PostLink, .SubmitButtonWrapper .PostButton, .WallContent .CommentButton').button(); });]
+<table border="0" cellpadding="0" cellspacing="2" width="70%">
+    [USERCANPOST]
+    <tr valign="top">
+        <td align="left" class="PostControlWrapper">
+            [POSTCONTROL:autogrow=true:width=100%][POSTWATERMARK:Post something...]            
+        </td>
+    </tr>
+    <tr>
+        <td align="left" class="SubmitButtonWrapper">[POSTBUTTON]</td>
+    </tr>
+    [/USERCANPOST]
+    <tr>
+        <td>
+            [WALLITEMS]
+        </td>
+    </tr>
+    <tr>
+        <td>[PAGER:GMAIL]</td>
+    </tr>
+</table>
+<table id="[EDITFORMPOSTCLIENTID]" title="Edit Post" border="0" cellpadding="0" cellspacing="0" width="100%" style="display:none;">
+    <tr valign="top">
+        <td align="center" class="PostControlWrapper">[EDITFORMPOSTCONTROL:autogrow=false:width=410px:height=100px]</td>
+    </tr>
+</table>
+[EDITPOSTLINK:]

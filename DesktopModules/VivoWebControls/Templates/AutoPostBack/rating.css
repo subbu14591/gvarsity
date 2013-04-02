@@ -1,0 +1,124 @@
+/* Rating */
+.ratingStar 
+{
+    font-size: 0pt;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+	padding:2px 2px 2px 2px;
+}
+.ratingview {
+    font-size:10px;
+	color:#666666;
+}
+table.tooltip 
+{
+	width: auto;
+}
+div.statwrapper 
+{
+	background-color: #ccc;
+	height: 18px;
+	width: 100%;
+}
+
+div.statwrapper img
+{
+	height: 18px;
+}
+
+/* Stars */
+
+#ui-stars-star ul {
+	float:left;
+	text-indent:-999em;
+	cursor:pointer;
+	display:block;
+	background:transparent;
+	overflow: hidden!important;	
+}
+
+#ui-stars-star ul li {  
+	float:left;
+	text-indent:-999em;
+	cursor:pointer;
+	display:block;
+	background:transparent;
+	overflow: hidden!important;
+	
+}
+
+.ui-stars-cancel,
+.ui-stars-star {
+	float:left;
+	width:17px;
+	height:15px;
+	text-indent:-999em;
+	cursor:pointer;
+	display:block;
+	background:transparent;
+	position:relative;
+	overflow: hidden!important;
+}
+.ui-stars-cancel,
+.ui-stars-cancel a {
+	background:url(images/delete.gif) no-repeat 0 -16px;
+}
+.ui-stars-star,
+.ui-stars-star a {
+	background:url(images/Star.png) no-repeat 0 0px;
+}
+.ui-stars-cancel a,
+.ui-stars-star a {
+	display:block;
+	width:16px;
+	height:100%;
+	background-position:0 0px;
+}
+.ui-stars-star-on a {
+	background-position:0 -16px!important;
+}
+div.ui-stars-star-hover ul {
+   background-position:0 -32px;
+}
+
+#ui-stars-star-hover ul.ui-stars-star-hover li:ui-stars-star-hover {
+   background-position:0 -32px;
+}
+.ui-stars-star-hover a {
+	background-position:0 -32px;
+}
+
+#ui-stars-cancel-hover ul.ui-stars-cancel-hover li:ui-stars-cancel-hover {
+   background-position:0 -32px;
+}
+.ui-stars-cancel-hover a {
+	background-position:0 -16px;
+}
+.ui-stars-cancel-disabled a,
+.ui-stars-star-disabled,
+.ui-stars-star-disabled a {
+	cursor:default !important;
+}
+.ui-stars-star {
+	background:transparent!important;
+	overflow:hidden!important;
+	position:relative;
+}
+
+
+
+
+/* Stars compressed
+.ui-stars-cancel,.ui-stars-star {float:left;width:17px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+.ui-stars-cancel,.ui-stars-cancel a {background:url(delete.gif) no-repeat 0 -16px}
+.ui-stars-star,.ui-stars-star a {background:url(star.gif) no-repeat 0 0px}
+.ui-stars-cancel a,.ui-stars-star a {display:block;width:16px;height:100%;background-position:0 0px}
+.ui-stars-star-on a {background-position:0 -16px!important}
+.ui-stars-star-hover a {background-position:0 -32px}
+.ui-stars-cancel-hover a {background-position:0 -16px}
+.ui-stars-cancel-disabled a,.ui-stars-star-disabled,.ui-stars-star-disabled a {cursor:default !important}
+.ui-stars-star {background:transparent!important;overflow:hidden!important}
+*/

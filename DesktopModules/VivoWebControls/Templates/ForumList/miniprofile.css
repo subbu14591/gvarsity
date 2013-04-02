@@ -1,0 +1,69 @@
+.photo-frame
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+.photo-frame TD {
+	margin: 0px;
+	padding: 0px;
+}
+
+.photo-frame .topx-- 
+{
+	background-repeat: no-repeat;
+	background-image: url(images/borders/frame-topx--.gif);
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+.photo-frame .top-x- {
+	background-repeat: repeat-x;
+	background-image: url(images/borders/frame-top-x-.gif);
+	width: auto;
+	height: 4px;
+}
+.photo-frame .top--x {
+	background-repeat: no-repeat;
+	background-image: url(images/borders/frame-top--x.gif);
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+
+.photo-frame .midx-- {
+	background-repeat: repeat-y;
+	background-image: url(images/borders/frame-midx--.gif);
+	width: 4px;
+	height: auto;
+}
+
+.photo-frame .mid--x {
+	background-repeat: repeat-y;
+	background-image: url(images/borders/frame-mid--x.gif);
+	width: 4px;
+	height: auto;
+}
+
+.photo-frame .botx-- {
+	background-repeat: no-repeat;
+	background-image: url(images/borders/frame-botx--.gif);
+	width: 4px;
+	height: 4px;
+	vertical-align: top;
+}
+.photo-frame .bot-x- {
+	background-repeat: repeat-x;
+	background-image: url(images/borders/frame-bot-x-.gif);
+	width: auto;
+	height: 4px;
+}
+.photo-frame .bot--x {
+	background-repeat: no-repeat;
+	background-image: url(images/borders/frame-bot--x.gif);
+	width: 4px;
+	height: 4px;
+	vertical-align: bottom;
+}

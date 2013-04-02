@@ -1,0 +1,23 @@
+.blogbar {    
+	width: 50px;
+	height:20px;	
+	text-align:center;
+}
+.blogRankUp {
+    vertical-align:middle;
+	text-align:center;
+}
+.blogRankDn {
+    vertical-align:middle;
+	text-align:center;
+}
+.blogRankint {
+	font-size:14px;
+	font-weight: bolder;
+	color: #333333;
+	text-align:center;
+	vertical-align:middle;
+	padding-top: 0px;
+	padding-bottom:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}

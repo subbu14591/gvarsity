@@ -1,0 +1,54 @@
+<table width="100%" border="0" cellspacing="1" cellpadding="1" style="float:left;">
+    <tr>
+        <td colspan="2"><strong>Email this story:</strong></td>    
+    </tr>
+    [MessageReady]
+    <tr>
+        <td>Your Email:[RequiredValidator:YourEmailControl:*][EmailValidator:*]</td>
+        <td align="left">[YourEmailControl::WIDTH=300,Height=100]</td>
+    </tr>
+    <tr>
+        <td>Your Name:[RequiredValidator:YourNameControl:*]</td>
+        <td align="left">[YourNameControl::WIDTH=300,Height=100]</td>
+    </tr>
+    <tr>
+        <td>Send To:</td>
+        <td align="left">
+            [SendToControl::WIDTH=300,Height=100,MinHeight=100,MaxHeight=300,MinWidth=100,MaxWidth=500,IsResizable=True]
+            Enter multiple addresses separated by a comma.
+        </td>
+    </tr>
+    <tr>
+        <td>Page Being Sent:</td>
+        <td align="left">[Permalink]</td>
+    </tr>
+    <tr>
+        <td>Subject:</td>
+        <td align="left">[Subject:(YourName) has forwarded you a page from (PortalName)]</td>
+    </tr>
+    <tr>
+        <td>Message Body:</td>
+        <td align="left">[Message:(YourName) thought you would like to see this page from the (PortalName) web site.]</td>
+    </tr>
+    <tr>
+        <td>Your Personal Message:</td>
+        <td align="left">
+            [MessageControl::WIDTH=300,Height=100,MinHeight=100,MaxHeight=300,MinWidth=100,MaxWidth=500,Ghost=True,IsResizable=True]
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><br />[SENDBUTTON:Send Message]</td>
+    </tr>
+    [/MessageReady]
+    
+    [MessageSent]
+    <tr>
+        <td>Message Sent! [HasInvalidEmail]Except to the following email address <strong>[InvalidEmail]</strong> because they are in invalid format.[/HasInvalidEmail]</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:history.go(-1);">Share Again</a></td>
+    </tr>
+    [/MessageSent]
+    
+</table>

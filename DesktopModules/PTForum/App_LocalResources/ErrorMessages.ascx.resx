@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="NoRecordsFound.Text">
+        <value>No record(s) were found that matched your query</value>
+    </data>
+    <data name="InsufficientPermissions.Text">
+        <value>Insufficient permission to perform this action</value>
+    </data>
+    <data name="InvalidParameter.Text">
+        <value>Invalid Parameter(s) passed</value>
+    </data>
+    <data name="InvalidThreadSubject.Text">
+        <value>Invalid Thread Subject</value>
+    </data>
+    <data name="InvalidMessage.Text">
+        <value>Invalid Post Message</value>
+    </data>
+    <data name="InvalidThreadID.Text">
+        <value>Invalid Thread ID</value>
+    </data>
+    <data name="InvalidPostID.Text">
+        <value>Invalid Post ID</value>
+    </data>
+    <data name="InvalidForumID.Text">
+        <value>Invalid Forum ID</value>
+    </data>
+    <data name="InvalidGroupID.Text">
+        <value>Invalid Group ID</value>
+    </data>
+    <data name="InvalidForumName.Text">
+        <value>Invalid Forum Name</value>
+    </data>
+    <data name="InvalidDataEntered.Text">
+        <value>Invalid Data Entered</value>
+    </data>
+    <data name="InvalidGroupName.Text">
+        <value>Invalid Group Name</value>
+    </data>
+    <data name="InvalidThreadPinned.Text">
+        <value>Invalid Thread Pinned indicator</value>
+    </data>
+    <data name="InvalidThreadLocked.Text">
+        <value>Invalid Thread Locked indicator</value>
+    </data>
+    <data name="AddRecordError.Text">
+        <value>Unable to Add record</value>
+    </data>
+    <data name="EditRecordError.Text">
+        <value>Unable to Edit record</value>
+    </data>
+    <data name="DeleteRecordError.Text">
+        <value>Unable to Delete record</value>
+    </data>
+    <data name="InvalidAuthorID.Text">
+        <value>Invalid Author ID</value>
+    </data>
+    <data name="InvalidAuthorSignature.Text">
+        <value>Invalid Signature</value>
+    </data>
+    <data name="InvalidFileName.Text">
+        <value>Invalid File Name</value>
+    </data>
+    <data name="InvalidFileType.Text">
+        <value>Invalid File Type</value>
+    </data>
+    <data name="InvalidFileSize.Text">
+        <value>Invalid File Size</value>
+    </data>
+    <data name="InvalidAuthorLocation.Text">
+        <value>Invalid Author Location</value>
+    </data>
+    <data name="InvalidSearch.Text">
+        <value>Invalid Search</value>
+    </data>
+    <data name="NoGroups.Text">
+        <value>At least one forum group must be created first</value>
+    </data>
+    <data name="InvalidNotificationData.Text">
+        <value>Invalid Notification Data</value>
+    </data>
+    <data name="InvalidRole.Text">
+        <value>Invalid Role</value>
+    </data>
+    <data name="InvalidAuthorStatus.Text">
+        <value>Invalid Author Status</value>
+    </data>
+    <data name="InvalidAuthorAboutMe.Text">
+        <value>Invalid Author About Me</value>
+    </data>
+    <data name="InactiveUser.Text">
+        <value>Your forum account is inactive</value>
+    </data>
+</root>

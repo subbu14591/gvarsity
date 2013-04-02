@@ -1,0 +1,19 @@
+[SETTINGS:Pagesize=20,SupportAjax=False]
+[SCRIPT:WallDocReady::jQuery(document).ready(function() { jQuery('.SubmitButtonWrapper .PostLink, .SubmitButtonWrapper .PostButton').button(); });]
+<table border="0" cellpadding="0" cellspacing="2" width="70%">
+    [USERCANPOST]
+    <tr>
+        <td align="left" class="PostControlWrapper">
+            [POSTCONTROL:autogrow=true:width=100%][POSTWATERMARK:Post something...]            
+        </td>
+    </tr>
+    <tr>
+        <td align="left" class="SubmitButtonWrapper">[POSTBUTTON]</td>
+    </tr>
+    [/USERCANPOST]
+    <tr>
+        <td>
+            [WALLITEMS]
+        </td>
+    </tr>
+</table>

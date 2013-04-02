@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+/*=======================================================+
+|  Skin        : Greytness                               |
+|  Version     : 2.6                                     |
+|  Released    : May 2012                                |
++=======================================================-+
+
++========================================================+
+|  Universal                                             |
++=======================================================*/
+
+/* HTML (Left blank on purpose) */
+html { }
+
+#Body { margin:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.8em; color:#333; line-height:1.4em; background-color:#FAFAFA }
+
+/* Skin Background */
+.skinBG { clear: both; }
+
+/* Additional space for lists */
+li { margin-bottom: 2px; }
+
+/* Lists Styles. 3 levels deep. */
+ul { margin-left:10px; padding-left:10px; }
+
+ul li,
+ul li li,
+ul li li li { list-style-type:square; }
+
+/* Make sure forms look good */
+form { margin:0; padding:0; }
+
+/* Make background white for control tables */
+.FCKImageGalleryContainer,
+.FCKLinkGalleryContainer { background-color:#FFF; }
+
+/* Make sure links are always blue even in Midnight Theme */
+ul.dnnActionMenuBody li ul li a,
+ul.dnnActionMenuBody li ul li a img { color:#328DDE !important; }
+
+/*========================================================+
+|  Links                                                  |
++========================================================*/
+
+/* default links visited and active */
+a:link,
+a:visited,
+a:active { text-decoration:none; color:#444; font-style:normal; text-decoration:underline }
+
+/* default links hover */
+a:hover { text-decoration:none; color:#000; }
+
+/* normal  links visited and active */
+a.Normal:link,
+a.Normal:visited { text-decoration: underline; }
+
+a.Normal:hover { text-decoration: none; }
+
+/*========================================================+
+|  Design Elements                                        |
++========================================================*/
+
+/* Set the margin and padding for the content Border Background Div. */
+.BorderBgDiv { width:960px; margin:20px auto 0 auto; background:#FFF; border:1px solid #CCC; padding:0px; clear: both; -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2); border-radius: 5px; -moz-border-radius: 4px; -webkit-border-radius: 3px; }
+
+/* Set the top border */
+.TopDiv { background:url(graphics/BorderedTop_bg.png) top no-repeat; height:15px; }
+.TopDiv { display:none; }
+
+/* Set width for Full page */
+.fullWidth { width:100%; padding:0; margin:0 auto; position:relative; }
+
+/* Set the width of the header content */
+.HeaderDiv { }
+
+/* Set the float classes. */
+.left { float:left; }
+
+.right { float:right; }
+
+/* Banner Division Styles */
+.BannerPane1,
+.BannerPane2,
+.BannerPane3 { clear:both; }
+
+.BannerPane3 { border-bottom:#264832 1px solid; }
+
+.Banner p { margin:0px; padding:0px; }
+
+.dnnLogo { }
+
+.dnnLogo a { }
+
+/* Set background image i.e. dotted line between dnnUSER and dnnLOGIN. If you don't want the divider, just empty the contents of this style. */
+.header-divide { background: url(graphics/hdr_divide.gif) center no-repeat; padding:2px 4px; }
+
+/* Set background image i.e. dotted line between dnnTerms and dnnCOPYRIGHT. If you don't want the divider, just empty the contents of this style. */
+.footer-divide { background: url(graphics/hdr_divide.gif) center no-repeat; padding:2px 4px; }
+
+/* Set the margin of the master table (the table that contains the vertical navigation and content cells). */
+#MasterTable { margin:0px; }
+
+/* Set the top padding of the TopPane. This keeps the pane from sitting flush against the breadcrumb/search section. */
+.TopPane { }
+
+/* Set the padding and width of all the major panes. Set vertical align to top. */
+.HeaderPane { position:absolute; left:0px; top:0px; }
+
+.LeftNavTop { clear:both; padding:5px; }
+
+.LeftNavTop .StdContainer { margin-bottom:0px; }
+
+.LeftNavBottom { clear:both; padding:5px; }
+
+.LeftGutterPane { clear:both; padding:10px; }
+
+.TopPaneDiv { clear:both; }
+
+.TopLeftPane { width:450px; vertical-align:top; }
+
+.TopRightPane { width:450px; vertical-align:top; }
+
+.ContentPaneDiv { clear:both; }
+
+.ContentPane { vertical-align:top; }
+
+.ContentPane2Div { clear:both; }
+
+.LeftPane { width:200px; vertical-align:top; }
+
+.ContentPane2 { vertical-align:top; width:700px; }
+
+.ContentPane3Div { clear:both; }
+
+.ContentPane3 { vertical-align:top; width:700px; }
+
+.RightPane { width:200px; vertical-align:top; }
+
+.MiddlePaneDiv { clear:both; }
+
+.MiddleLeftPane { width:200px; margin-right:20px; vertical-align:top; }
+
+.MiddlePane { width:484px; vertical-align:top; }
+
+.MiddleRightPane { width:200px; vertical-align:top; }
+
+.BottomPaneDiv { clear:both; }
+
+.BottomColumn1 { width:216px; margin-right:20px; vertical-align:top; }
+
+.BottomColumn2 { width:216px; margin-right:20px; vertical-align:top; }
+
+.BottomColumn3 { width:216px; vertical-align:top; }
+
+.BottomColumn4 { width:216px; vertical-align:top; }
+
+.BottomPane { clear:both; }
+
+/* These styles are only used for the LinearX Demo site. Feel free to delete. */
+.DNNPane { border: #333 3px solid; padding: 60px 5px; text-align: center; font-weight: bold; vertical-align: middle; background-color: #FAFAFA; white-space:nowrap; color: #333; font-size:14px; margin-bottom:20px; }
+
+.DNNHeaderPane { padding: 25px 5px; width:300px; }
+
+/* Set font size, color, etc. for login links and text. */
+.login { text-decoration:none; color: #999; }
+
+#dnn_dnnUSER_cmdRegister { text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; background:url(graphics/hdr_divide.gif) right no-repeat; color:#333; }
+
+#dnn_dnnUSER_registerLink { text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; background:url(graphics/hdr_divide.gif) right no-repeat; color:#333; }
+
+#dnn_dnnUSER_registerLink:hover { text-decoration:underline; }
+
+#dnn_dnnUSER_cmdRegister:hover { text-decoration:underline; }
+
+#dnn_dnnLOGIN_cmdLogin { text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333; }
+
+#dnn_dnnLOGIN_cmdLogin:hover { text-decoration:underline; }
+
+/*========================================================+
+| Menu, Breadcrumb, and Search                            |
++========================================================*/
+
+/* Set the background image, width, and margins for the menu. */
+.menu-bg { background-color: #CCC; height:26px; border-top: #999 1px solid; border-bottom: #999 1px solid; position:relative; z-index:1000; }
+
+.menu { text-align:left; float:left; width:770px; }
+
+/* Set the background image, width, and margins for the Breadcrumb. */
+.breadcrumb-div { background-color:#F1F1F1; height:18px; border-top:#E6E6E6 1px solid; border-bottom:#CCC 1px solid; line-height:10px; }
+
+.breadcrumb-row { padding:0; }
+
+/* Set font size, color, etc. for the breadcrumb div. */
+.breadcrumbdiv { font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; text-decoration:none; color: #333; text-align:left; padding:2px 0px 0px 18px; float:left; line-height:normal }
+
+.breadcrumb { font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; text-decoration:none !important; color: #333 !important; font-style:normal !important; }
+
+.breadcrumbdiv a:hover { text-decoration:underline !important; }
+
+.breadcrumb-pretext { font-weight:normal; color:#FAFAFA; line-height:12px; }
+
+/* Set font size, color, etc. for the Current Date div. */
+.currentDateDiv { display:block; float:right; padding-right:10px; }
+
+.currentDate { font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; text-decoration:none; color: #999; }
+
+.current-date a { font-size:10px; text-decoration:none; color:#666; }
+
+.current-date a:hover { text-decoration:underline; }
+
+/* If panes are empty, we make sure there are no lingering styles. */
+.DNNEmptyPane { border:0px none !important; line-height:0px !important; padding:0px !important; font-size:0px !important; height:0px !important; width:0px !important; margin:0px !important; display:none; }
+
+/* Set the background image, width, margin, and border for the content div. */
+#greytness .content,
+#GreytnessMidnight .content { width:924px; margin:0px auto 0 auto; padding:10px 0 20px 0 }
+
+.contentBg { }
+
+/* Set the background image,  width, margin, and font for the footer div. */
+
+.BottomDiv { background:#EFEFEF; border-top:#CCC 1px solid; height:auto; clear:both; position:relative; border-radius: 0px 0px 3px 3px; -moz-border-radius: 0px 0px 3px 3px; -webkit-border-radius: 0px 0px 3px 3px; }
+
+#greytness .footer-bg,
+#GreytnessMidnight .footer-bg { border-top:#666 1px solid }
+
+#greytness .footer,
+#GreytnessMidnight .footer { font-size:.8em; line-height:1.8em; text-decoration:none; color:#333; width:934px; padding:2px 0px; margin:0 auto 0 auto; text-align:left; font-family:Verdana, Arial, Helvetica, sans-serif }
+
+#greytness .footer a,
+#GreytnessMidnight .footer a,
+.charcoolFooter a { text-decoration:none; color:#333 }
+
+#greytness .footer a:hover,
+#GreytnessMidnight .footer a:hover,
+.charcoolFooter a:hover { text-decoration:underline }
+
+/* Padding-right is used to set the terms and privacy text 3 pixels from the right edge. */
+.termsdiv { float:right; bottom:0px; }
+
+.terms { background:url(graphics/hdr_divide.gif) right no-repeat; }
+
+.privacy { background:url(graphics/hdr_divide.gif) right no-repeat; }
+
+/* Margin-left is used to set the copyright text 3 pixels from the left edge. */
+.copyright { padding:0; }
+
+/* Horizontal Rule */
+hr { height: 1px; color: #bbb; }
+
+.action-buttons { padding:0; margin-bottom:10px; text-align:right; /*text-align:right; float:right; display:block;*/ }
+
+/* Footer Links */
+#greytness .footer ul,
+#GreytnessMidnight .footer ul { list-style: none; margin: 0; padding: 0; }
+
+#greytness .footer li,
+#GreytnessMidnight .footer li,
+.charcoolFooter li { list-style: none; display: block; float: left; margin-right: 8px; }
+
+#greytness .footer li a,
+#GreytnessMidnight .footer li a,
+.charcoolFooter li a { padding-right:8px; }
+
+/*========================================================+
+|  Search Items                                           |
++========================================================*/
+
+/* Set the padding of the search div. */
+.Search { float:right; padding:2px 5px 0 0; }
+
+.search img { border:none; padding:0px 0px 0px 0px; }
+
+/* Set background color for Google custom search input */
+.GCSearchBox { background-color:#FFFCF2; }
+
+.GCSearchButton { }
+
+/* Font for Radio Button labels. Not displayed by default but just in case. */ 
+a.SearchField:hover { text-decoration:underline !important; }
+
+.btnSearch { margin-left:-7px; }
+
+/* Search Textbox Font and background image. */ 
+#dnn_dnnSEARCH_txtSearch.NormalTextBox { padding: 3px 2px 0px 4px; font-size:.8em; height:16px; background:#F8F8F8 url(graphics/search_bg.gif) top repeat-x; border: #999 1px solid; width:120px; }
+
+#dnn_dnnSEARCH_cmdSearch img { border:none; vertical-align:top; margin-top:1px; padding:0px }
+
+/*========================================================+
+|  DNN Control Panel                                      |
++========================================================*/
+
+/* We are using the DNN defaults Except the align center which breaks when you use DIV not tables for content. */
+.DNNAligncenter { text-align:left; }
+
+.greytnessCP { }
+
+#dnn_ControlPanel { width:962px; margin:0 auto }
+
+.greytnessCP .dnnRibbon .barContent { border-right:none; border-top:none }
+
+.greytnessCP .RadTabStrip_Default { background:none }
+
+.greytnessCP .RadTabStrip_Default .rtsLink { background-color:#F1F1F1; color:#111 }
+
+.greytnessCP .RadTabStrip_Default .rtsLink:hover { background-color:#FFF; color:#111 }
+
+.greytnessCP .RadTabStrip_Default .rtsSelected { background-color:#FFF }
+
+.greytnessCP .dnnRibbonGroup .content { height:100px }
+
+.greytnessCP .dnnRibbonGroup .content:hover { background:#FCFCFC }
+
+.greytnessCP .RadTabStrip_Default .rtsLI,
+.RadTabStrip_Default .rtsLink { height:auto }
+
+.greytnessCP .RadTabStripTop_Default .rtsLink { margin-top:4px }
+
+.greytnessCP .RadTabStrip_Default .rtsSelected { border-bottom:#FFF 1px solid; height:24px; margin-top:0px; font-size:13px; color:#333 }
+
+.greytnessCP .RadTabStrip_Default .rtsSelected:hover { font-size:13px }
+
+.greytnessCP .RadTabStrip_Default .rtsSelected .rtsTxt { font-weight:bold }
+
+.greytnessCP .dnnRibbon .barContent table { width:100% }
+
+.ControlPanel,
+.PagingTable { background-color:#FFF; border:none; text-align:center }
+
+#GreytnessMidnight .ControlPanel,
+.PagingTable { background:#999 none }
+
+/*========================================================+
+|  Text Styles                                            |
++========================================================*/
+
+/* Default Font */
+p { font-family:Verdana, Arial, Helvetica, sans-serif; color: #333; margin:0 0 10px 0; }
+
+/* Most of the site text. */
+.normal,
+.Normal { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 1em; color: #333; }
+
+/* Most of the bold site text. */
+.NormalBold { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; font-weight: bold; color: #555; }
+
+/* Red Error site text. */
+.NormalRed { color: #900; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+/* subheadings - mostly in admin. */
+.SubHead { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #333; }
+
+/* headings - mostly in admin. */
+.Head { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 14px; text-decoration: none; font-weight: normal; background-color:transparent; color: #333; }
+
+/* Header styles. */
+h1 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 2.0em; text-decoration: none; font-weight: bold; margin-top:0px; margin-bottom:6px; line-height:1em; }
+
+h2 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 1.8em; font-weight:bold; margin-top:0px; margin-bottom:5px; line-height:1em; }
+
+h3 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 1.6em; font-weight:bold; margin-top:0px; margin-bottom:4px; line-height:1em; }
+
+h4 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 1.4em; font-weight:bold; margin-top:0px; margin-bottom:3px; line-height:1em; }
+
+h5 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 1.2em; font-weight:bold; margin-top:0px; margin-bottom:2px; line-height:1em; }
+
+h6 { font-family:Calibri, Arial, Helvetica, sans-serif; color:#444; font-size: 1.2em; font-weight:bold; margin-top:0px; margin-bottom:2px; line-height:1em; font-style:italic; }
+
+/*========================================================+
+|  User Defined Tables                                    |
++========================================================*/
+
+.UDT_Table_Head th { font-size:10px; }
+
+.UDT_Table_AlternateItem,
+.UDT_Table_AlternateItem p { font-size:10px; background-color:#F3F3F3; vertical-align:top; }
+
+.UDT_Table_Item,
+.UDT_Table_Item p { font-size:10px; vertical-align:top; }
+
+/*========================================================+
+|  Module Menus                                           |
++========================================================*/
+
+/* Usually no need to change these styles. */
+.ModuleTitle_MenuItem { background-color:#F7F7F7; border:1px solid #F7F7F7; color:#333; font-family:verdana, sans-serif; font-size:11px; font-weight:normal; padding:0px 10px 0px 0px; }
+
+.ModuleTitle_SubMenu { background-color:#F7F7F7; border:1px solid #666; margin:1px 0px 0px; padding:0px; z-index:2000 !important; }
+
+.ModuleTitle_MenuItemSel { background:#DDD none repeat scroll 0%; border-left:1px solid #DDD; border-right:1px solid #DDD; color:#000; font-family:verdana, sans-serif; font-size:11px; font-weight:normal; padding:0px 10px 0px 0px }
+
+.ModuleTitle_MenuIcon { border:1px solid #EEE; padding:2px 3px; }
+
+.ModuleTitle_MenuBreak,
+.ModuleTitle_MenuArrow,
+.ModuleTitle_RootMenuArrow { display:none; }
+
+/*========================================================+
+|  Forms                                                  |
++========================================================*/
+     
+/* Default for Element */
+select,
+input { font-family: tahoma; font-size: 11px; color: #555; }
+
+/* Default Textbox */
+.NormalTextBox { color:#333; line-height:12px; font-family:tahoma; font-weight:normal }
+
+/*========================================================+
+|  Navigation Menu Styles                                 |
++========================================================*/
+
+#nav ul { list-style:none; margin:0; padding:0; }
+
+#nav ul li { list-style:none; margin:0; padding:0; float:left; position:relative; }
+
+#nav ul li a { font-family:Verdana, Geneva, sans-serif; font-weight:normal; font-size:12px; display:block; margin:0; text-decoration:none; text-align:center; padding:0 20px 0 18px; margin:0px; color:#000; background:#CCC url(graphics/menu_divide.gif) right center no-repeat; line-height:26px; }
+
+#nav ul li a:hover { background:#FAFAFA; }
+
+#nav ul li ul { position:absolute; left:-1px; width:171px; border-left:1px solid #999; border-top:1px solid #999; -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3); box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3); display:none; }
+
+#nav ul li ul li a { display:block; width:100%; background:#E6E6E6; width:150px; padding:7px 10px; text-align:left; border-right:1px solid #999; border-bottom:1px solid #999; line-height:normal; }
+
+#nav ul li ul li a:hover,
+#nav ul li ul li.SelectedTab a:hover { background:#FAFAFA; }
+
+#nav ul li ul li.SelectedTab a { background:#CCC; }
+
+#nav ul li ul li ul { position:absolute; top:0px; left:170px; }
+
+/*========================================================+
+|  Navigation Menu Styles for Charcool Themes             |
++========================================================*/
+
+#charcoolNav ul { list-style:none; margin:0; padding:0; position:relative; }
+
+#charcoolNav ul li { list-style:none; margin:0; padding:0; float:left; position:relative; }
+
+#charcoolNav ul li a { font-family:Verdana, Geneva, sans-serif; font-weight:normal; font-size:12px; display:block; margin:0; text-decoration:none; text-align:center; padding:0 10px 0 10px; color:#AAA; background:none; line-height:26px; }
+
+#charcoolNav ul li a:hover { background:#3A3A3A; }
+
+#charcoolNav ul li ul { position:absolute; right:20%; width:167px; border:none; z-index:600; padding-top:10px; background:url(graphics/charcool_menu_arrow.gif) top right no-repeat; display:none; -webkit-box-shadow: none; box-shadow: none; }
+
+#charcoolNav ul li ul li a { display:block; width:100%; background:#262626; width:150px; text-align:left; line-height:normal; font-size:11px; text-align:left; background:#262626 none; color:#CCC; border-left:#3C3C3C 1px solid; border-bottom:#1C1C1C 1px solid; padding:8px 6px 8px 10px; text-transform:none; font-family:Verdana, Geneva, sans-serif; font-weight:normal; }
+
+#charcoolNav ul li ul li a:hover,
+#charcoolNav ul li ul li.SelectedTab a:hover { background:#3A3A3A; }
+
+#charcoolNav ul li ul li.SelectedTab a { background:#262626; }
+
+#charcoolNav ul li ul li ul { position:absolute; left:-177px; top:0px; width:168px; border:none; padding-top:1px; padding-right:10px; background:url(graphics/charcool_menu_sub_arrow.gif) top right no-repeat; display:none; }
+
+/*========================================================+
+|  Additional Styles                                      |
++========================================================*/
+
+.TitleCell { padding:0 20px 20px 0; vertical-align:top }
+
+.SizeCell { padding:0 20px 20px 0; vertical-align:top }
+
+#GreytnessMidnight .FileManager_StatusBar,
+#GreytnessMidnight .FileManager_Pager { background-color:#666 }
+
+#GreytnessMidnight select.Normal { color:#000 }
+
+#GreytnessMidnight .ExtensionsContent tr.NormalBold { color:#000 }
+
+div.language-object { width: 960px; margin: 0 auto; }
+
+div.language-object span.Language { float: right; }
+
+div.language-object span.Language img { width: 20px; margin: 5px 0px 0 0; }
+
+div.language-object span.Language.selected img { border-color:#CCC; }
+
+#GreytnessMidnight div.language-object span.Language.selected img { border: 2px solid #333; }
+
+/* Adammer Free skin style */
+.designBy { font-size:10px; color:#B2B2B2; text-align:center; margin:5px 0 20px 0 }
+
+.designBy a { font-size:10px; color:#B2B2B2; text-decoration:none }
+
+.designBy a:hover { font-size:10px; color:#999; text-decoration:underline }
+
+/*========================================================+
+|  Clear Fix for floating DIVs                            |
++========================================================*/
+
+* html .clearfix { height:1%; overflow:visible }
+
+*+html .clearfix { min-height:1% }
+
+.clearfix:after { clear:both; content:"."; display:block; height:0; visibility:hidden }

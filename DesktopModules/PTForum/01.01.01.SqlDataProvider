@@ -1,0 +1,7 @@
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumForums   
+	ADD [ForumFeedAggregated] [int] NOT NULL DEFAULT 0
+GO
+
+ALTER TABLE {databaseOwner}{objectQualifier}PT_ForumForums   
+	ADD [ForumFeed] [int] NOT NULL DEFAULT 0
+GO

@@ -1,0 +1,256 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>AskQuestion.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Badge.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>BadgeManager.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Badges.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Browse.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Dispatch.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>EditPost.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>EditTerm.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Home.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>module.css</name>
+    </file>
+    <file>
+      <path />
+      <name>PostHistory.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Privilege.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>PrivilegeManager.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Profile.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Qa.asmx</name>
+    </file>
+    <file>
+      <path />
+      <name>Question.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>ScoringManager.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>smart_wizard.css</name>
+    </file>
+    <file>
+      <path />
+      <name>Subscriptions.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>TagDetail.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>TagHistory.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>TagList.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>AskQuestion.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Badge.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>BadgeManager.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Badges.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Browse.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Dispatch.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>EditPost.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>EditTerm.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Home.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Privilege.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>PrivilegeManager.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Profile.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Question.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>ScoringManager.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SharedResources.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Subscriptions.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>TagDetail.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>TagHistory.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>TagList.ascx.resx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>HeaderNav.ascx</name>
+    </file>
+    <file>
+      <path>Controls/App_LocalResources/</path>
+      <name>HeaderNav.ascx.resx</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>accepted.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>accepted_large.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>bronze-badge.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>comment.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>down-arrow-nav.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>down-icn.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>down.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>gold-badge.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>QandA.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>silver-badge.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>up.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>vote-hover-icn.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>vote-icn.png</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>BadgeManager.js</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>jquery.qaplaceholder.js</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>jquery.qatooltip.js</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>jquery.smartWizard-2.0.js</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>jquery.tagify.js</name>
+    </file>
+  </files>
+</dotnetnuke>

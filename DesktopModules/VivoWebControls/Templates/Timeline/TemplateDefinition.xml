@@ -1,0 +1,17 @@
+<Vivo version="1.0" type="Template">
+  <templategroups>
+
+    <templategroup name="Wall" description="Wall control template files">
+      <templates>
+        <template name="Style Sheet" layoutfile="wall.css" size="XL" />
+        <template name="Header" layoutfile="wall.header.htm" size="M" />        
+        <template name="Main" layoutfile="wall.htm" size="XL" />
+        <template name="Items" layoutfile="wall.item.htm" size="L" />
+        <template name="Separator" layoutfile="wall.separator.htm" size="XS" />
+        <template name="Alternate Items" layoutfile="wall.alternate.htm" size="L" />
+        <template name="Footer" layoutfile="wall.footer.htm" size="M" />
+      </templates>
+    </templategroup>
+
+  </templategroups>
+</Vivo>

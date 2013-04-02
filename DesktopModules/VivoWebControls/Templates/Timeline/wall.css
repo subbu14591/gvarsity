@@ -1,0 +1,147 @@
+body {    
+    line-height: 1.28;
+    text-align: left;
+    direction: ltr;
+}
+
+.FacebookFeed {  background: url(images/facebook.png) no-repeat right top; }
+
+.TimelineHead
+{
+    border: 1px solid #ccc;
+    padding: 13px 15px;
+    margin: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.TimelineHead .TimelineHeadPostText TEXTAREA { resize:vertical; width: 90%; }
+
+.TimelineHead .TimelineHeadPostButton { padding-top: 10px; }
+
+.TimelineHead .PostLink, .TimelineHead .PostButton  { outline: 0; margin:0 4px 0 0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
+.TimelineHead .PostLink .ui-icon, .TimelineHead .PostButton .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+	
+.TimelineHead a.PostLink, .TimelineHead a.PostButton { float:left; }
+
+.TimelineContainer
+{
+    background: url(images/container_bg.png) repeat-y center top;
+    margin: 0;
+    padding: 10px 0 0 0;
+    position: relative;
+    list-style: none;
+    display: block;
+    list-style-type: decimal;
+    width: 100%;
+}
+
+.TimelineElement {  
+    list-style: none;
+}
+
+.TimelineElement .Container {
+    border: 1px solid #ccc;
+    padding: 13px 15px;
+}
+
+
+.TwoColumn { width: 50%; }
+
+.LeftColumn
+{
+    clear: left;
+    float: left;    
+}
+
+.RightColumn {
+    clear: right;
+    float: right;
+}
+
+.LeftColumn, .RightColumn {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;    
+}
+
+.LeftColumn .Container {
+    margin-right: 14px;
+}
+
+.RightColumn .Container {
+    margin-left: 14px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.TimelineElement .spinePointer
+{
+    background-image: url(images/arrows.png);
+    background-repeat: no-repeat;
+    background-position: left 0;
+    height: 15px;
+    width: 18px;
+    left: auto;
+    right: -3px;
+    position: absolute;
+    top: 20px;    
+}
+
+
+.RightColumn .spinePointer
+{
+    background-position: left -18px;
+    left: -2px;
+    top: 40px;
+}
+
+
+
+.TimelineElement .ItemHeader 
+{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+}
+
+.TimelineElement .ItemInfo 
+{
+    padding-top: 6px;
+}
+
+.TimelineElement .ItemPicture
+{
+    float: left;
+    margin-right: 8px;
+}
+
+.TimelineElement .ItemInfoUser
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.TimelineElement .ItemInfoDate
+{
+    text-align: left;
+    font-weight: normal;
+    font-size: 11px;
+    color: gray;
+}

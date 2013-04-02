@@ -1,0 +1,22 @@
+[SETTINGS:Pagesize=25,SupportAjax=False,EXPANDURL=True,EXPANDURLTarget=_blank,SHORTURLOPTION=10-50]
+[JQUERYUI]
+[SCRIPT:jquery.ui.button.min.js:{WEBCONTROLPATH}/js/jquery.ui.button.min.js]
+[SCRIPT:WallDocReady::jQuery(document).ready(function() { jQuery('.SubmitButtonWrapper .PostLink, .SubmitButtonWrapper .PostButton, .WallContent .CommentButton').button(); });]
+[USERCANPOST]
+<div class="TimelineHead">
+    <div class="TimelineHeadPostText">[POSTCONTROL:autogrow=true:width=100%][POSTWATERMARK:Post something...]</div>
+    <div class="TimelineHeadPostButton">[POSTBUTTON]</div>
+</div>
+[/USERCANPOST]
+<ol class="TimelineContainer clearfix">                
+    [WALLITEMS]
+</ol>
+<div class="Pager">
+    [PAGER:GMAIL]
+</div>
+<table id="[EDITFORMPOSTCLIENTID]" title="Edit Post" border="0" cellpadding="0" cellspacing="0" width="100%" style="display:none;">
+    <tr valign="top">
+        <td align="center" class="PostControlWrapper">[EDITFORMPOSTCONTROL:autogrow=false:width=410px:height=100px]</td>
+    </tr>
+</table>
+[EDITPOSTLINK:]

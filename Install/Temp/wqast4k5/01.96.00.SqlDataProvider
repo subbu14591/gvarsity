@@ -1,0 +1,6 @@
+﻿IF NOT EXISTS (SELECT * FROM {databaseOwner}aspnet_SchemaVersions WHERE Feature = 'profile')
+INSERT INTO {databaseOwner}aspnet_SchemaVersions 
+VALUES
+('profile', 1, 1),
+('role manager', 1, 1);
+GO

@@ -1,0 +1,25 @@
+.bookmarkboxoutter {
+	padding: 3px;
+}
+.bookmarkbox {
+	padding: 8px;
+	height: 25px;
+}
+.SocialBookmarks_Title {
+   color:#666666;
+   font-size:11px;
+   font-weight:bold;
+   padding-bottom:2px;
+}
+.Container {
+	border: solid 0px #ccc;
+	background: transparent;
+	padding:2px;
+	
+}
+.Container UL {
+	list-style-type: none;
+}
+.Container UL LI {
+	list-style-type: none;
+}

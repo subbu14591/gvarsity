@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForumHome.Text" xml:space="preserve">
+    <value>Forum Home</value>
+  </data>
+  <data name="Actions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="AddGroup.Text" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="AddForum.Text" xml:space="preserve">
+    <value>Add Forum</value>
+  </data>
+  <data name="ForumSettings.Text" xml:space="preserve">
+    <value>Forum Settings</value>
+  </data>
+  <data name="GroupName.Text" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="ForumName.Text" xml:space="preserve">
+    <value>Forum Name</value>
+  </data>
+  <data name="ForumDescription.Text" xml:space="preserve">
+    <value>Forum Description</value>
+  </data>
+  <data name="Anonymous.Text" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="Registered.Text" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="NoAccess.Text" xml:space="preserve">
+    <value>No Access</value>
+  </data>
+  <data name="ViewAndPost.Text" xml:space="preserve">
+    <value>View And Post</value>
+  </data>
+  <data name="ViewOnly.Text" xml:space="preserve">
+    <value>View Only</value>
+  </data>
+  <data name="AvatarFileSize.Text" xml:space="preserve">
+    <value>Avatar Max File Size</value>
+  </data>
+  <data name="AvatarWidth.Text" xml:space="preserve">
+    <value>Avatar Max Width</value>
+  </data>
+  <data name="AvatarHeight.Text" xml:space="preserve">
+    <value>Avatar Max Height</value>
+  </data>
+  <data name="ThreadPageSize.Text" xml:space="preserve">
+    <value>Threads Page Size</value>
+  </data>
+  <data name="PostPageSize.Text" xml:space="preserve">
+    <value>Posts Page Size</value>
+  </data>
+  <data name="SearchPageSize.Text" xml:space="preserve">
+    <value>Search Result Page Size</value>
+  </data>
+  <data name="AuthorSignatureMaxLength.Text" xml:space="preserve">
+    <value>Signature Max Length</value>
+  </data>
+  <data name="PostMessageMaxLength.Text" xml:space="preserve">
+    <value>Post Max Length</value>
+  </data>
+  <data name="AllowEmailNotifications.Text" xml:space="preserve">
+    <value>Allow Email Notifications</value>
+  </data>
+  <data name="EmailFromAddress.Text" xml:space="preserve">
+    <value>Email From Address</value>
+  </data>
+  <data name="AuthorPostTemplate.Text" xml:space="preserve">
+    <value>Author Post Template</value>
+  </data>
+  <data name="Placeholders.Text" xml:space="preserve">
+    <value>Placeholders</value>
+  </data>
+  <data name="PostEditorWidth.Text" xml:space="preserve">
+    <value>Post Editor Width</value>
+  </data>
+  <data name="PostEditorHeight.Text" xml:space="preserve">
+    <value>Post Editor Height</value>
+  </data>
+  <data name="EnableSmilies.Text" xml:space="preserve">
+    <value>Enable Smilies</value>
+  </data>
+  <data name="EnableImageUploads.Text" xml:space="preserve">
+    <value>Enable Image Uploads</value>
+  </data>
+  <data name="ImageFileSize.Text" xml:space="preserve">
+    <value>Image Max File Size</value>
+  </data>
+  <data name="ImageWidth.Text" xml:space="preserve">
+    <value>Image Max Width</value>
+  </data>
+  <data name="EnableAvatarUploads.Text" xml:space="preserve">
+    <value>Enable Avatar Uploads</value>
+  </data>
+  <data name="UploadSettingsInfo.Text" xml:space="preserve">
+    <value>Enable uploads for registered users here. Uploads are always enabled for admins and moderators, and disabled for anonymous users. Images are automatically resized to specified width if posssible.</value>
+  </data>
+  <data name="PageSizeSettingsInfo.Text" xml:space="preserve">
+    <value>Specify the number of records to display per page for the various pages in the forum.</value>
+  </data>
+  <data name="PostSettingsInfo.Text" xml:space="preserve">
+    <value>Post Editor Settings. If Anonymous HTML is enabled, the system will allow anonymous users to post messages containing HTML and smilies (if enabled), otherwise only plain text messages are allowed. You can also specify a new folder name (relative to the install folder) for your Smilies.</value>
+  </data>
+  <data name="EmailSettingsInfo.Text" xml:space="preserve">
+    <value>Notification Settings. Ensure that the SMTP settings for your DNN installation is correct. The From address is required. Some SMTP servers also require a To address (the BCC field is used to send notifications to forum subscribers). Email can be sent in a separate thread to improve performance. Note that anonymous users can not subscribe to notifications.</value>
+  </data>
+  <data name="GeneralSettingsInfo.Text" xml:space="preserve">
+    <value>General Settings. To increase response times on the forum home page, disable Statistics or increase the Cache Duration. The Author Post Template is used to display HTML below each user's avatar in the post listings. Placeholders can be used to dynamically insert data into the template.</value>
+  </data>
+  <data name="AdminGroupsForumsInfo.Text" xml:space="preserve">
+    <value>Forums are organised into forum groups. You can create as many groups, and forums within groups, as you like. Note that when you delete a forum or group, all related posts will also be deleted.</value>
+  </data>
+  <data name="EnableAnonymousHTML.Text" xml:space="preserve">
+    <value>Enable Anonymous HTML</value>
+  </data>
+  <data name="NewForumInfo.Text" xml:space="preserve">
+    <value>Please visit the forum's Administration area to create new forums and configure this module.</value>
+  </data>
+  <data name="ModeratorRole.Text" xml:space="preserve">
+    <value>Moderator Role</value>
+  </data>
+  <data name="AdminForumInfo.Text" xml:space="preserve">
+    <value>Admin users always have full access to all forums, but you can optionally also select a Moderator Role for this forum which will give it's members certain admin rights, such as editing and deleting threads and posts. In addition, you can also specify what type of access Anonymous and Registered users must have. Forum Description is optional.</value>
+  </data>
+  <data name="ModuleTemplate.Text" xml:space="preserve">
+    <value>Module Template</value>
+  </data>
+  <data name="EnableStatistics.Text" xml:space="preserve">
+    <value>Enable Statistics</value>
+  </data>
+  <data name="StatisticsCacheDuration.Text" xml:space="preserve">
+    <value>Statistics Cache Duration</value>
+  </data>
+  <data name="ModerationSettingsInfo.Text" xml:space="preserve">
+    <value>Moderation Settings. You can limit the time a user or moderator has to make changes to a post after it has been posted. Administrators have no time limit.</value>
+  </data>
+  <data name="UserMaxEditTime.Text" xml:space="preserve">
+    <value>User Max Edit Time</value>
+  </data>
+  <data name="ModeratorMaxEditTime.Text" xml:space="preserve">
+    <value>Moderator Max Edit Time</value>
+  </data>
+  <data name="AuthorAdminTextInfo.Text" xml:space="preserve">
+    <value>Additional text or HTML to be displayed below the user's avatar and info on the post list page</value>
+  </data>
+  <data name="SmiliesFolderName.Text" xml:space="preserve">
+    <value>Smilies Folder Name</value>
+  </data>
+  <data name="AuthorAdminInfo.Text" xml:space="preserve">
+    <value>Fields denoted with (*) are only visible to forum administrators.</value>
+  </data>
+  <data name="Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Active.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AuthorStatusInfo.Text" xml:space="preserve">
+    <value>Only active users can view and post on the forum</value>
+  </data>
+  <data name="EmailToAddress.Text" xml:space="preserve">
+    <value>Email To Address</value>
+  </data>
+  <data name="AdminGroupsForums.Text" xml:space="preserve">
+    <value>Forums and Groups</value>
+  </data>
+  <data name="Administration.Text" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="AggregatedRSSFeed.Text" xml:space="preserve">
+    <value>Aggregated RSS Feed</value>
+  </data>
+  <data name="RSSFeedSettingsInfo.Text" xml:space="preserve">
+    <value>RSS Feed Settings. Note that the Aggregated RSS feed only includes posts from forums that are publically viewable. Individual forum feeds are enabled/disabled at the forum level using the forum maintenance function.</value>
+  </data>
+  <data name="AggregatedRSSTitleOnly.Text" xml:space="preserve">
+    <value>Show post title only? (Uncheck to show post body as well)</value>
+  </data>
+  <data name="ForumFeedAggregated.Text" xml:space="preserve">
+    <value>Include in Aggregated Feed</value>
+  </data>
+  <data name="ForumFeed.Text" xml:space="preserve">
+    <value>Enable Forum Feed</value>
+  </data>
+  <data name="EmailSeparateThread.Text" xml:space="preserve">
+    <value>Send in separate thread</value>
+  </data>
+  <data name="RSSFeedPostCount.Text" xml:space="preserve">
+    <value>RSS Feed Post Count</value>
+  </data>
+</root>
